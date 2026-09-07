@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3DE7A9-06C6-4FFC-86AF-6A76F37D3148}|CRUD Praktek\\CRUD Praktek.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\crud praktek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE3DE7A9-06C6-4FFC-86AF-6A76F37D3148}|CRUD Praktek\\CRUD Praktek.csproj|solutionrelative:crud praktek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3DE7A9-06C6-4FFC-86AF-6A76F37D3148}|CRUD Praktek\\CRUD Praktek.csproj|c:\\users\\peter\\source\\repos\\lathian\\crud praktek\\crud praktek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3DE7A9-06C6-4FFC-86AF-6A76F37D3148}|CRUD Praktek\\CRUD Praktek.csproj|solutionrelative:crud praktek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\CRUD Praktek\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD Praktek\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\CRUD Praktek\\Form1.cs",
+              "RelativeToolTip": "CRUD Praktek\\Form1.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAcwMEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:29:14.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\CRUD Praktek\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD Praktek\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD Praktek\\CRUD Praktek\\Form1.cs [Design]",
+              "RelativeToolTip": "CRUD Praktek\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:21:17.677Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

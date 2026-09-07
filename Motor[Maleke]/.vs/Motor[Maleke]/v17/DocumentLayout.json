@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|c:\\users\\peter\\source\\repos\\lathian\\motor[maleke]\\motor[maleke]\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A81510-3B0A-45BD-AAD7-86458B719FC7}|Motor[Maleke]\\Motor[Maleke].csproj|solutionrelative:motor[maleke]\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Transaction.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Transaction.cs",
+              "RelativeToolTip": "Motor[Maleke]\\Transaction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:26:41.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Transaction.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Transaction.cs [Design]",
+              "RelativeToolTip": "Motor[Maleke]\\Transaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:20:34.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Users.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Users.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Users.cs",
+              "RelativeToolTip": "Motor[Maleke]\\Users.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAADwvxIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:06:43.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Users.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Users.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Users.cs [Design]",
+              "RelativeToolTip": "Motor[Maleke]\\Users.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:39:35.586Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Main Menu.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Main Menu.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Main Menu.cs",
+              "RelativeToolTip": "Motor[Maleke]\\Main Menu.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:38:54.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Main Menu.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Main Menu.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Main Menu.cs [Design]",
+              "RelativeToolTip": "Motor[Maleke]\\Main Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:25:57.655Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Form1.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Form1.cs",
+              "RelativeToolTip": "Motor[Maleke]\\Form1.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:20:41.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataClasses1.dbml",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\DataClasses1.dbml",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\DataClasses1.dbml",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\DataClasses1.dbml",
+              "RelativeToolTip": "Motor[Maleke]\\DataClasses1.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2026-02-28T02:06:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Form1.cs",
+              "RelativeDocumentMoniker": "Motor[Maleke]\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Motor[Maleke]\\Motor[Maleke]\\Form1.cs [Design]",
+              "RelativeToolTip": "Motor[Maleke]\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:59:26.759Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

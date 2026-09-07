@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formlaporan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlaporan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|c:\\users\\haikal\\source\\repos\\umkmpintarkasir\\umkmpintarkasir\\formlaporan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlaporan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formlaporan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlaporan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formprofilumkm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formprofilumkm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formkasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formkasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formkasir.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formkasir.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmasterproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmasterproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmasterproduk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmasterproduk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmasterproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmasterproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formkasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formkasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\umkmpintarkasir\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8397B0-1E82-478B-B187-EAA50F20C2AC}|UmkmPintarKasir\\UmkmPintarKasir.csproj|solutionrelative:umkmpintarkasir\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLaporan.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLaporan.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLaporan.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAvwHcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:33:35.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\Form1.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:09:56.066Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:02:57.381Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormLaporan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLaporan.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLaporan.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:37:11.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMain.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:45:55.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormLaporan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLaporan.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLaporan.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLaporan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:46:18.63Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormKasir.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormKasir.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormKasir.Designer.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAApwOwBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:52:20.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormKasir.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormKasir.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormKasir.cs",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAgwF0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:52:32.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormProfilUmkm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormProfilUmkm.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormProfilUmkm.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormProfilUmkm.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormProfilUmkm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:58:42.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T04:05:31.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormMasterProduk.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMasterProduk.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMasterProduk.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:50:53.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\Form1.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\Form1.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T04:13:45.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormMasterProduk.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMasterProduk.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMasterProduk.Designer.cs",
+              "ViewState": "AgIAAFABAAAAAAAAAAAIwGQBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:52:09.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMasterProduk.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMasterProduk.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMasterProduk.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMasterProduk.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAswEEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:53:44.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormKasir.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormKasir.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormKasir.cs [Design]",
+              "RelativeToolTip": "UmkmPintarKasir\\FormKasir.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:49:27.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMain.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMain.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAcwJsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:03:46.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormMain.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormMain.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormMain.Designer.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAowMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:45:47.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLogin.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:02:59.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\UserSession.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\UserSession.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:02:39.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "UmkmPintarKasir\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Haikal\\source\\repos\\UmkmPintarKasir\\UmkmPintarKasir\\FormLogin.Designer.cs",
+              "RelativeToolTip": "UmkmPintarKasir\\FormLogin.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:03:15.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA8670F-4103-45DC-8C71-495A0B34A336}|CRUD_Ulangan\\CRUD_Ulangan.csproj|c:\\users\\peter\\source\\repos\\lathian\\crud_ulangan\\crud_ulangan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA8670F-4103-45DC-8C71-495A0B34A336}|CRUD_Ulangan\\CRUD_Ulangan.csproj|solutionrelative:crud_ulangan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA8670F-4103-45DC-8C71-495A0B34A336}|CRUD_Ulangan\\CRUD_Ulangan.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\crud_ulangan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBA8670F-4103-45DC-8C71-495A0B34A336}|CRUD_Ulangan\\CRUD_Ulangan.csproj|solutionrelative:crud_ulangan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\CRUD_Ulangan\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD_Ulangan\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\CRUD_Ulangan\\Form1.cs",
+              "RelativeToolTip": "CRUD_Ulangan\\Form1.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv3cAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:59:31.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\CRUD_Ulangan\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD_Ulangan\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\CRUD_Ulangan\\CRUD_Ulangan\\Form1.cs [Design]",
+              "RelativeToolTip": "CRUD_Ulangan\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:47:35.143Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

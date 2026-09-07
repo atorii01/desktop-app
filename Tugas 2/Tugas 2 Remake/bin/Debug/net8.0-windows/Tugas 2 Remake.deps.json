@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tugas 2 Remake/1.0.0": {
+        "runtime": {
+          "Tugas 2 Remake.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tugas 2 Remake/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,43 @@
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\CRUD Latihan Ulangan.exe.config
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\CRUD Latihan Ulangan.exe
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\CRUD Latihan Ulangan.pdb
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Npgsql.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Buffers.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Memory.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Text.Json.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Threading.Channels.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.ValueTuple.dll
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\Npgsql.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Buffers.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Memory.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Text.Json.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Threading.Channels.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\bin\Debug\System.ValueTuple.xml
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.csproj.SuggestedBindingRedirects.cache
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.exe.config
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD_Latihan_Ulangan.Form1.resources
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD_Latihan_Ulangan.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Lat.01D19E10.Up2Date
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.exe
+C:\Users\Peter\source\repos\lathian\CRUD Latihan Ulangan\CRUD Latihan Ulangan\obj\Debug\CRUD Latihan Ulangan.pdb

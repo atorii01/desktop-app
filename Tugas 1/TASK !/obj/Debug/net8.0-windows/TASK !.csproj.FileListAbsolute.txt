@@ -1,0 +1,38 @@
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\bin\Debug\net8.0-windows\TASK !.exe
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\bin\Debug\net8.0-windows\TASK !.deps.json
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\bin\Debug\net8.0-windows\TASK !.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\bin\Debug\net8.0-windows\TASK !.dll
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\bin\Debug\net8.0-windows\TASK !.pdb
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK__.Form1.resources
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.dll
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\refint\TASK !.dll
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.pdb
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK !.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\ref\TASK !.dll
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK__.Form2.resources
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK__.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\TASK !\TASK !\obj\Debug\net8.0-windows\TASK__.Form3.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\bin\Debug\net8.0-windows\TASK !.exe
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\bin\Debug\net8.0-windows\TASK !.deps.json
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\bin\Debug\net8.0-windows\TASK !.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\bin\Debug\net8.0-windows\TASK !.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\bin\Debug\net8.0-windows\TASK !.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK__.Form1.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK__.Form2.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK__.Form3.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK__.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\refint\TASK !.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\TASK !.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\TASK !\obj\Debug\net8.0-windows\ref\TASK !.dll

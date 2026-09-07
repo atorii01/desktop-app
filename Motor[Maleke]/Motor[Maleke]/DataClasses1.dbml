@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MotorcycleRepair" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TUFA16\SQLEXPRESS;Initial Catalog=MotorcycleRepair;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="Motor_Maleke_.Properties.Settings" SettingsPropertyName="MotorcycleRepairConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DetailProduct" Member="DetailProducts">
+    <Type Name="DetailProduct">
+      <Column Name="TransactionNumber" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductCode" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TransactionService_DetailProduct" Member="TransactionService" ThisKey="TransactionNumber" OtherKey="TransactionNumber" Type="TransactionService" IsForeignKey="true" />
+      <Association Name="Product_DetailProduct" Member="Product" ThisKey="ProductCode" OtherKey="ProductCode" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserCode" Type="System.String" DbType="Char(9) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="User_TransactionService" Member="TransactionServices" ThisKey="UserCode" OtherKey="UserCode" Type="TransactionService" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TransactionService" Member="TransactionServices">
+    <Type Name="TransactionService">
+      <Column Name="TransactionNumber" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TransactionDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PoliceRegistrationNumber" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Damage" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="TotalServiceCost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalProductPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalCharge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Paid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ChangeMoney" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserCode" Type="System.String" DbType="Char(9)" CanBeNull="true" />
+      <Column Name="MechanicCode" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Association Name="TransactionService_DetailProduct" Member="DetailProducts" ThisKey="TransactionNumber" OtherKey="TransactionNumber" Type="DetailProduct" />
+      <Association Name="TransactionService_DetailService" Member="DetailServices" ThisKey="TransactionNumber" OtherKey="TransactionNumber" Type="DetailService" />
+      <Association Name="User_TransactionService" Member="User" ThisKey="UserCode" OtherKey="UserCode" Type="User" IsForeignKey="true" />
+      <Association Name="Mechanic_TransactionService" Member="Mechanic" ThisKey="MechanicCode" OtherKey="MechanicCode" Type="Mechanic" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MotorcycleServices" Member="MotorcycleServices">
+    <Type Name="MotorcycleService">
+      <Column Name="ServiceCode" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="MotorcycleService_DetailService" Member="DetailServices" ThisKey="ServiceCode" OtherKey="ServiceCode" Type="DetailService" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ProductCode" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_DetailProduct" Member="DetailProducts" ThisKey="ProductCode" OtherKey="ProductCode" Type="DetailProduct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mechanics" Member="Mechanics">
+    <Type Name="Mechanic">
+      <Column Name="MechanicCode" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MechanicName" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Association Name="Mechanic_TransactionService" Member="TransactionServices" ThisKey="MechanicCode" OtherKey="MechanicCode" Type="TransactionService" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DetailService" Member="DetailServices">
+    <Type Name="DetailService">
+      <Column Name="TransactionNumber" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceCode" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="MotorcycleService_DetailService" Member="MotorcycleService" ThisKey="ServiceCode" OtherKey="ServiceCode" Type="MotorcycleService" IsForeignKey="true" />
+      <Association Name="TransactionService_DetailService" Member="TransactionService" ThisKey="TransactionNumber" OtherKey="TransactionNumber" Type="TransactionService" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

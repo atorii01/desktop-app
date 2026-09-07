@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WWAzlsKGxXM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Peter\\source\\repos\\lathian\\Project 1\\Project 1\\Project 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.7\\microsoft.net.illink.tasks.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

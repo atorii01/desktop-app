@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud nilai", "crud nilai\crud nilai.csproj", "{E1E07625-BBA2-4232-BBEE-E29FE19015E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1E07625-BBA2-4232-BBEE-E29FE19015E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E07625-BBA2-4232-BBEE-E29FE19015E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E07625-BBA2-4232-BBEE-E29FE19015E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E07625-BBA2-4232-BBEE-E29FE19015E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2FE0810-4614-4566-A38B-839B4418AAB5}
+	EndGlobalSection
+EndGlobal

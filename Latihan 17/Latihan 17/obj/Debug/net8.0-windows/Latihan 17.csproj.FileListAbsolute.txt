@@ -1,0 +1,16 @@
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\bin\Debug\net8.0-windows\Latihan 17.exe
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\bin\Debug\net8.0-windows\Latihan 17.deps.json
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\bin\Debug\net8.0-windows\Latihan 17.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\bin\Debug\net8.0-windows\Latihan 17.dll
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\bin\Debug\net8.0-windows\Latihan 17.pdb
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan_17.Form1.resources
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.dll
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\refint\Latihan 17.dll
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.pdb
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\Latihan 17.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Latihan 17\Latihan 17\obj\Debug\net8.0-windows\ref\Latihan 17.dll

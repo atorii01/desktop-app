@@ -1,0 +1,7 @@
+Nilai 1: 78
+Nilai 2: 70
+Nilai 3: 100
+Rerata: 82,67
+Kategori: B
+Keterangan: Selamat anda berhasil
+-------------------------------

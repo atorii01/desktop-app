@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|c:\\users\\peter\\source\\repos\\lathian\\petertemuan1lks\\petertemuan1lks\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\petertemuan1lks\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{142CEE0D-5140-4D06-A50B-586F27CD7A56}|Petertemuan1LKS\\Petertemuan1LKS.csproj|solutionrelative:petertemuan1lks\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form3.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form3.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form3.cs",
+              "RelativeToolTip": "Petertemuan1LKS\\Form3.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T03:59:41.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form3.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form3.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form3.cs [Design]",
+              "RelativeToolTip": "Petertemuan1LKS\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T03:34:22.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form2.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form2.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form2.cs",
+              "RelativeToolTip": "Petertemuan1LKS\\Form2.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T02:15:53.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form2.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form2.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form2.cs [Design]",
+              "RelativeToolTip": "Petertemuan1LKS\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T02:11:53.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form1.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form1.cs",
+              "RelativeToolTip": "Petertemuan1LKS\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T02:04:45.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataClasses1.dbml",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\DataClasses1.dbml",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\DataClasses1.dbml",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\DataClasses1.dbml",
+              "RelativeToolTip": "Petertemuan1LKS\\DataClasses1.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2026-02-07T01:32:59.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form1.cs",
+              "RelativeDocumentMoniker": "Petertemuan1LKS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Petertemuan1LKS\\Petertemuan1LKS\\Form1.cs [Design]",
+              "RelativeToolTip": "Petertemuan1LKS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T01:29:42.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.AdminMainForm.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.Form1.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.RegisterForm.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.AddEditQuestionForm.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.AdminDashboardForm.resources
+C:\Users\Peter\source\repos\lathian\LKS\LKS\obj\Debug\LKS.AdminQuestionsForm.resources

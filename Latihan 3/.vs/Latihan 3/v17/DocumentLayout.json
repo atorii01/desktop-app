@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\Latihan 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA97F27-F566-44B4-B92F-69576AF1180A}|Latihan 3\\Latihan 3.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihan 3\\latihan 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA97F27-F566-44B4-B92F-69576AF1180A}|Latihan 3\\Latihan 3.csproj|solutionrelative:latihan 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA97F27-F566-44B4-B92F-69576AF1180A}|Latihan 3\\Latihan 3.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihan 3\\latihan 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BA97F27-F566-44B4-B92F-69576AF1180A}|Latihan 3\\Latihan 3.csproj|solutionrelative:latihan 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Latihan 3\\Latihan 3\\Form1.cs",
+              "RelativeDocumentMoniker": "Latihan 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Latihan 3\\Latihan 3\\Form1.cs",
+              "RelativeToolTip": "Latihan 3\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wCQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T07:13:48.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Latihan 3\\Latihan 3\\Form1.cs",
+              "RelativeDocumentMoniker": "Latihan 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Latihan 3\\Latihan 3\\Form1.cs [Design]",
+              "RelativeToolTip": "Latihan 3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T07:08:39.847Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

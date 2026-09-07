@@ -1,0 +1,13 @@
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.Form1.resources
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\bin\Debug\Petertemuan1LKS.exe.config
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\bin\Debug\Petertemuan1LKS.exe
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\bin\Debug\Petertemuan1LKS.pdb
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.exe
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.pdb
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.exe.config
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.Form2.resources
+C:\Users\Peter\source\repos\lathian\Petertemuan1LKS\Petertemuan1LKS\obj\Debug\Petertemuan1LKS.Form3.resources

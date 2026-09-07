@@ -1,0 +1,13 @@
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\bin\Debug\Motor[Maleke].exe.config
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\bin\Debug\Motor[Maleke].exe
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\bin\Debug\Motor[Maleke].pdb
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor_Maleke_.Form1.resources
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor_Maleke_.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].exe
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].pdb
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor[Maleke].exe.config
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor_Maleke_.Main_Menu.resources
+C:\Users\Peter\source\repos\lathian\Motor[Maleke]\Motor[Maleke]\obj\Debug\Motor_Maleke_.Users.resources

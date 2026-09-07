@@ -1,0 +1,125 @@
+﻿namespace TUGAS_7
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            label1 = new Label();
+            txtBayar = new TextBox();
+            SuspendLayout();
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(37, 35);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(234, 29);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "PembeliaanObat-Obatan";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(37, 82);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(172, 29);
+            checkBox2.TabIndex = 1;
+            checkBox2.Text = "Pemeriksaan Gigi";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(37, 128);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(181, 29);
+            checkBox3.TabIndex = 2;
+            checkBox3.Text = "Pemeriksaan Mata";
+            checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(37, 174);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(231, 29);
+            checkBox4.TabIndex = 3;
+            checkBox4.Text = "Pemeriksaan Labotarium";
+            checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(37, 234);
+            label1.Name = "label1";
+            label1.Size = new Size(180, 25);
+            label1.TabIndex = 4;
+            label1.Text = "Total Biaya Kesehatan";
+            // 
+            // txtBayar
+            // 
+            txtBayar.Location = new Point(37, 262);
+            txtBayar.Name = "txtBayar";
+            txtBayar.Size = new Size(358, 31);
+            txtBayar.TabIndex = 5;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(431, 329);
+            Controls.Add(txtBayar);
+            Controls.Add(label1);
+            Controls.Add(checkBox4);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
+            Name = "Form1";
+            Text = "Menu Kesehatan Otomatis";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private Label label1;
+        private TextBox txtBayar;
+    }
+}

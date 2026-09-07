@@ -1,0 +1,17 @@
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\bin\Debug\net8.0-windows\Tugas 1.exe
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\bin\Debug\net8.0-windows\Tugas 1.deps.json
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\bin\Debug\net8.0-windows\Tugas 1.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\bin\Debug\net8.0-windows\Tugas 1.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\bin\Debug\net8.0-windows\Tugas 1.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas_1.Form1.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas_1.Form2.resources
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\refint\Tugas 1.dll
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\Tugas 1.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Tugas 1\Tugas 1\obj\Debug\net8.0-windows\ref\Tugas 1.dll

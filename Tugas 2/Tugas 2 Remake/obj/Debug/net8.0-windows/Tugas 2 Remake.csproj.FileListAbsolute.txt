@@ -1,0 +1,59 @@
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.exe
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.deps.json
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form1.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form2.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\refint\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\ref\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2 Remake\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form3.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.exe
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.deps.json
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form1.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form2.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\refint\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.pdb
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\ref\Tugas 2 Remake.dll
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Fom3.resources
+C:\Users\Peter\source\repos\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form4.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.exe
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.deps.json
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.runtimeconfig.json
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.dll
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\bin\Debug\net8.0-windows\Tugas 2 Remake.pdb
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form1.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form2.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Fom3.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Form4.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas_2_Remake.Properties.Resources.resources
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.GenerateResource.cache
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfoInputs.cache
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.AssemblyInfo.cs
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.csproj.CoreCompileInputs.cache
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.dll
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\refint\Tugas 2 Remake.dll
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.pdb
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\Tugas 2 Remake.genruntimeconfig.cache
+D:\visual studio preview\lathian\Tugas 2\Tugas 2 Remake\obj\Debug\net8.0-windows\ref\Tugas 2 Remake.dll

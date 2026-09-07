@@ -1,0 +1,16 @@
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\bin\Debug\net8.0-windows\Latihan 19.exe
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\bin\Debug\net8.0-windows\Latihan 19.deps.json
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\bin\Debug\net8.0-windows\Latihan 19.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\bin\Debug\net8.0-windows\Latihan 19.dll
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\bin\Debug\net8.0-windows\Latihan 19.pdb
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan_19.Form1.resources
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.dll
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\refint\Latihan 19.dll
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.pdb
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\Latihan 19.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\Latihan 19\Latihan 19\obj\Debug\net8.0-windows\ref\Latihan 19.dll

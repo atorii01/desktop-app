@@ -1,0 +1,54 @@
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\crud nilai.exe
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\crud nilai.deps.json
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\crud nilai.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\crud nilai.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\crud nilai.pdb
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Accelergreat.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Accelergreat.EntityFramework.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Accelergreat.EntityFramework.PostgreSql.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Namotion.Reflection.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\NJsonSchema.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\NJsonSchema.Annotations.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud_nilai.Form1.resources
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.csproj.Up2Date
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\refint\crud nilai.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.pdb
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\ref\crud nilai.dll

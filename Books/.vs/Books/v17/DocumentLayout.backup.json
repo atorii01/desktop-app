@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|c:\\users\\peter\\source\\repos\\lathian\\books\\books\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\dataclasses1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\dataclasses1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Books\\books\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{AC948736-D0FC-42E7-8831-0CFEF0AB8B24}|Books\\Books.csproj|solutionrelative:books\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataClasses1.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\DataClasses1.designer.cs",
+              "RelativeDocumentMoniker": "Books\\DataClasses1.designer.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\DataClasses1.designer.cs",
+              "RelativeToolTip": "Books\\DataClasses1.designer.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAkwFoBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T05:35:22.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add User.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Add User.cs",
+              "RelativeDocumentMoniker": "Books\\Add User.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Add User.cs",
+              "RelativeToolTip": "Books\\Add User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T05:05:48.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add User.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Add User.cs",
+              "RelativeDocumentMoniker": "Books\\Add User.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Add User.cs [Design]",
+              "RelativeToolTip": "Books\\Add User.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T04:58:27.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Books\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.Designer.cs",
+              "RelativeToolTip": "Books\\Form1.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAWwJsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T04:34:06.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.cs",
+              "RelativeDocumentMoniker": "Books\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.cs",
+              "RelativeToolTip": "Books\\Form1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T04:15:46.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.cs",
+              "RelativeDocumentMoniker": "Books\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\Form1.cs [Design]",
+              "RelativeToolTip": "Books\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T04:09:17.974Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataClasses1.dbml",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\DataClasses1.dbml",
+              "RelativeDocumentMoniker": "Books\\DataClasses1.dbml",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Books\\Books\\DataClasses1.dbml",
+              "RelativeToolTip": "Books\\DataClasses1.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2026-02-14T04:10:52.975Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

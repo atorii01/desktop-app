@@ -1,0 +1,12 @@
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\bin\Debug\Hovlibrary.exe.config
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\bin\Debug\Hovlibrary.exe
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\bin\Debug\Hovlibrary.pdb
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.Form1.resources
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.exe
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.pdb
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.exe.config
+C:\Users\Peter\source\repos\lathian\Hovlibrary\Hovlibrary\obj\Debug\Hovlibrary.MasterBook.resources

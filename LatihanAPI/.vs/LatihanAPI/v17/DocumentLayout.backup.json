@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|c:\\users\\peter\\source\\repos\\lathian\\latihanapi\\latihanapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9530E7AB-1983-4352-82CD-B5E0EDC110C4}|LatihanAPI\\LatihanAPI.csproj|solutionrelative:latihanapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logincontroller.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Controllers\\Logincontroller.cs",
+              "RelativeDocumentMoniker": "LatihanAPI\\Controllers\\Logincontroller.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Controllers\\Logincontroller.cs*",
+              "RelativeToolTip": "LatihanAPI\\Controllers\\Logincontroller.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T02:13:52.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Movie.cs",
+              "RelativeDocumentMoniker": "LatihanAPI\\Movie.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Movie.cs",
+              "RelativeToolTip": "LatihanAPI\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T02:02:08.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "LatihanAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "LatihanAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T02:00:05.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LatihanAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\appsettings.json",
+              "RelativeToolTip": "LatihanAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T01:46:30.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "LatihanAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "LatihanAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T01:46:17.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LatihanAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\LatihanAPI\\LatihanAPI\\Program.cs*",
+              "RelativeToolTip": "LatihanAPI\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T01:46:01.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

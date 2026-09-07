@@ -1,0 +1,8 @@
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\bin\Debug\latihanLKS.exe.config
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\bin\Debug\latihanLKS.exe
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\bin\Debug\latihanLKS.pdb
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\obj\Debug\latihanLKS.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\obj\Debug\latihanLKS.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\obj\Debug\latihanLKS.exe
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\obj\Debug\latihanLKS.pdb
+C:\Users\Peter\source\repos\lathian\latihanLKS\latihanLKS\obj\Debug\latihanLKS.exe.config

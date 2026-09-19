@@ -19,7 +19,16 @@
     <Compile Update="FormLaporanpersiswa.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formsiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormTambahPelanggaran.cs">
@@ -29,6 +38,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormUserGuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LaporanPersiswa2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">

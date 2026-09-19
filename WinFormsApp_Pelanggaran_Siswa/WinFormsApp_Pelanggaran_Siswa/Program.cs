@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace WinFormsApp_Pelanggaran_Siswa
 {
     internal static class Program
@@ -8,10 +11,25 @@ namespace WinFormsApp_Pelanggaran_Siswa
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Login());
+
+            try
+            {
+                // Jalankan aplikasi utama (FormMDI)
+                Application.Run(new FormMDI());
+            }
+            catch (Exception ex)
+            {
+                // Tangkap semua error yang muncul saat startup
+                MessageBox.Show(
+                    "Terjadi kesalahan saat menjalankan aplikasi:\n\n" +
+                    ex.Message + "\n\n" +
+                    "Detail:\n" + ex.StackTrace,
+                    "Kesalahan Aplikasi",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+            }
         }
     }
 }

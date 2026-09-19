@@ -79,7 +79,7 @@ namespace Data_Gaji_karyawan
                         cmd.Parameters.AddWithValue("Nama", nama);
                         cmd.Parameters.AddWithValue("Departemen", departemen);
                         cmd.Parameters.AddWithValue("Hari", hari);
-                        cmd.Parameters.AddWithValue("Libur", libur; 
+                        cmd.Parameters.AddWithValue("Libur", libur); 
                         cmd.Parameters.AddWithValue("Gaji", gaji);
 
                         cmd.ExecuteNonQuery();

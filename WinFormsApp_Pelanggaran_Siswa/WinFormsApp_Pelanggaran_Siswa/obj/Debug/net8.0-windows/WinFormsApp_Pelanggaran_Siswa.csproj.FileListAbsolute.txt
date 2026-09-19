@@ -77,86 +77,265 @@ C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelangg
 C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormInputPelanggaran.resources
 C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanpersiswa.resources
 C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanperkelas.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.exe
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.deps.json
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.runtimeconfig.json
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.ClientModel.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.AssemblyReference.cache
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormPelanggara.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormInputPelanggaran.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formjenispelanggaran.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanperkelas.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanpersiswa.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formsiswa.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormTambahPelanggaran.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formtambahsiswa.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormUserGuru.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Properties.Resources.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.GenerateResource.cache
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfoInputs.cache
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfo.cs
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.CoreCompileInputs.cache
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinForms.24FA775A.Up2Date
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\refint\WinFormsApp_Pelanggaran_Siswa.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.genruntimeconfig.cache
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\ref\WinFormsApp_Pelanggaran_Siswa.dll
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Pengaturan.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.SuratPeringatan.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Daftar.resources
-C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Login.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormMDI.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLogin.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.exe
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.deps.json
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.runtimeconfig.json
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.AssemblyReference.cache
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormPelanggara.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormInputPelanggaran.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formjenispelanggaran.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanperkelas.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanpersiswa.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLogin.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormMDI.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formsiswa.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormSp.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormTambahPelanggaran.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formtambahsiswa.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormUserGuru.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Properties.Resources.resources
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.GenerateResource.cache
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfoInputs.cache
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfo.cs
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.CoreCompileInputs.cache
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinForms.24FA775A.Up2Date
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\refint\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.genruntimeconfig.cache
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\ref\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\HYPE AMD\source\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.LaporanPersiswa2.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.exe
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.deps.json
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.runtimeconfig.json
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\itextsharp.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.AssemblyReference.cache
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormPelanggara.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormInputPelanggaran.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formjenispelanggaran.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanperkelas.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanpersiswa.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLogin.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormMDI.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formsiswa.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormSp.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormTambahPelanggaran.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formtambahsiswa.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormUserGuru.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.LaporanPersiswa2.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Properties.Resources.resources
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.GenerateResource.cache
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfoInputs.cache
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfo.cs
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.CoreCompileInputs.cache
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinForms.24FA775A.Up2Date
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\refint\WinFormsApp_Pelanggaran_Siswa.dll
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.genruntimeconfig.cache
+D:\repos\WinFormsApp_Pelanggaran_Siswa - Copy\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\ref\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.exe
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.deps.json
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.runtimeconfig.json
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Daftar.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormPelanggara.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormInputPelanggaran.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formjenispelanggaran.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanperkelas.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLaporanpersiswa.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormLogin.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormMDI.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formsiswa.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormSp.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormTambahPelanggaran.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Formtambahsiswa.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.FormUserGuru.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.LaporanPersiswa2.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Login.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Pengaturan.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.SuratPeringatan.resources
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.AssemblyInfo.cs
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.sourcelink.json
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinForms.24FA775A.Up2Date
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\refint\WinFormsApp_Pelanggaran_Siswa.dll
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.pdb
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\WinFormsApp_Pelanggaran_Siswa.genruntimeconfig.cache
+C:\Users\Peter\source\repos\lathian\WinFormsApp_Pelanggaran_Siswa\WinFormsApp_Pelanggaran_Siswa\obj\Debug\net8.0-windows\ref\WinFormsApp_Pelanggaran_Siswa.dll

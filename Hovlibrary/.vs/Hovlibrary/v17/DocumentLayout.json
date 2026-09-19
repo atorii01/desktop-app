@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
-      "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MasterBook.cs",
               "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
               "RelativeDocumentMoniker": "Hovlibrary\\MasterBook.cs",
               "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
               "RelativeToolTip": "Hovlibrary\\MasterBook.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAowIcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T02:57:26.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MasterBook.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
               "RelativeDocumentMoniker": "Hovlibrary\\MasterBook.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DataClasses1.dbml",
               "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\DataClasses1.dbml",
               "RelativeDocumentMoniker": "Hovlibrary\\DataClasses1.dbml",

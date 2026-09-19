@@ -1,19 +1,39 @@
 ﻿using LoginDatabase;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace WinFormsApp_Pelanggaran_Siswa
 {
     public partial class FormUserGuru : Form
     {
-        private readonly Koneksi Konn = new Koneksi();
+        private readonly Koneksi Konn = Koneksi.Instance;
         private string selectedKode = null;
         private readonly string placeholderCari = "cari guru";
         private BindingSource bs = new BindingSource();
+
+        // cache daftar role yang valid (diisi saat load)
+        private List<string> allowedRolesCache = new List<string>();
+
+        // alias mapping: input -> nilai yang akan disimpan ke DB (sekarang mengarah ke "guru bk")
+        private readonly Dictionary<string, string> roleAliases = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "guru bk", "guru bk" },
+            { "guru-bk", "guru bk" },
+            { "guru_bk", "guru bk" },
+            { "bk", "guru bk" },
+            { "gurubk", "guru bk" },
+            { "guru bk ", "guru bk" },
+            { " GURU BK", "guru bk" }
+        };
+
+        // tooltip untuk menjelaskan kenapa kontrol disabled
+        private readonly ToolTip _roleToolTip = new ToolTip() { ShowAlways = true };
 
         public FormUserGuru()
         {
@@ -55,14 +75,26 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 if (arr.Length > 0) return arr[0];
             }
 
-            // jika tidak ditemukan, coba cari control type yang mengandung kata kunci (role/nama/password)
-            string typeName = ctrlType.Name.ToLower();
-            foreach (Control c in this.Controls.Cast<Control>().SelectMany(x => x.Controls.Cast<Control>()))
+            // jika tidak ditemukan, coba cari control type secara rekursif
+            foreach (Control root in this.Controls)
             {
-                if (c.GetType() == ctrlType) return c;
+                var found = FindControlRecursive(root, ctrlType);
+                if (found != null) return found;
             }
 
             // fallback: return null
+            return null;
+        }
+
+        private Control FindControlRecursive(Control parent, Type ctrlType)
+        {
+            if (parent == null) return null;
+            if (parent.GetType() == ctrlType) return parent;
+            foreach (Control c in parent.Controls)
+            {
+                var f = FindControlRecursive(c, ctrlType);
+                if (f != null) return f;
+            }
             return null;
         }
 
@@ -84,13 +116,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 // other controls with Text property
                 return c.Text;
             }
-
-            // fallback: try to find any TextBox containing 'nama'/'pass'/'role'
-            foreach (Control c in this.Controls.Find("", true))
-            {
-                // won't be reached because Find with empty string returns nothing; keep for completeness
-            }
-
             return "";
         }
 
@@ -103,14 +128,28 @@ namespace WinFormsApp_Pelanggaran_Siswa
             c = this.Controls.Find("role", true).FirstOrDefault();
             if (c != null) return c;
             // coba cari ComboBox yang memiliki "role" di Name (case-insensitive)
-            foreach (Control ctrl in this.Controls.Find("", true))
+            foreach (Control root in this.Controls)
             {
-                if (ctrl is ComboBox && ctrl.Name.ToLower().Contains("role")) return ctrl;
+                var found = FindControlByNameContainsRecursive(root, "role", typeof(ComboBox));
+                if (found != null) return found;
             }
             // terakhir, cari combo apapun
-            foreach (Control ctrl in this.Controls.Find("", true))
+            foreach (Control root in this.Controls)
             {
-                if (ctrl is ComboBox) return ctrl;
+                var found = FindControlRecursive(root, typeof(ComboBox));
+                if (found != null) return found;
+            }
+            return null;
+        }
+
+        private Control FindControlByNameContainsRecursive(Control parent, string keyword, Type ctrlType)
+        {
+            if (parent == null) return null;
+            if (parent.GetType() == ctrlType && parent.Name != null && parent.Name.ToLower().Contains(keyword.ToLower())) return parent;
+            foreach (Control c in parent.Controls)
+            {
+                var f = FindControlByNameContainsRecursive(c, keyword, ctrlType);
+                if (f != null) return f;
             }
             return null;
         }
@@ -122,9 +161,12 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 var arr = this.Controls.Find(n, true);
                 if (arr.Length > 0) return arr[0];
             }
-            // fallback: find first textbox
-            var tbs = this.Controls.Find("", true).Where(c => c is TextBox).ToArray();
-            if (tbs.Length > 0) return tbs[0];
+            // fallback: find first textbox recursively
+            foreach (Control root in this.Controls)
+            {
+                var found = FindControlRecursive(root, typeof(TextBox));
+                if (found != null) return found;
+            }
             return null;
         }
         #endregion
@@ -167,15 +209,21 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
         private void FormUserGuru_Load(object sender, EventArgs e)
         {
+            // ambil daftar role yang valid dari DB (constraint IN / quoted values) atau DISTINCT role
+            allowedRolesCache = GetAllowedRolesFromDatabase();
+
+            // jika tidak berhasil ambil dari DB, fallback ke: admin & guru bk
+            if (allowedRolesCache == null || allowedRolesCache.Count == 0)
+            {
+                allowedRolesCache = new List<string> { "admin", "guru bk" };
+            }
+
             // siapkan combo role jika ada
             var roleCtrl = FindRoleControl();
             if (roleCtrl is ComboBox cb)
             {
-                if (cb.Items.Count == 0)
-                {
-                    cb.Items.Add("admin");
-                    cb.Items.Add("guru bk");
-                }
+                cb.Items.Clear();
+                foreach (var r in allowedRolesCache) cb.Items.Add(r);
                 cb.DropDownStyle = ComboBoxStyle.DropDownList;
             }
 
@@ -188,6 +236,9 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 tbKode.Text = GetNextKodePreview();
                 tbKode.ReadOnly = true;
             }
+
+            // apply role permissions: disable text & buttons if not admin
+            ApplyRolePermissions();
         }
 
         private void SetInitialButtonState()
@@ -281,8 +332,13 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     {
                         if (cb.Items[i].ToString().Equals(roleVal, StringComparison.OrdinalIgnoreCase)) { idx = i; break; }
                     }
-                    cb.SelectedIndex = idx;
-                    if (idx == -1) cb.Text = roleVal;
+                    if (idx >= 0) cb.SelectedIndex = idx;
+                    else
+                    {
+                        // jika role di DB tidak ada di allowed list, tambahkan supaya tampil (tapi tetap dianggap non-valid saat simpan)
+                        if (!cb.Items.Contains(roleVal)) cb.Items.Add(roleVal);
+                        cb.Text = roleVal;
+                    }
                 }
                 else if (roleCtrl != null)
                 {
@@ -332,6 +388,14 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
         private void btntambah_Click(object sender, EventArgs e)
         {
+            // jika bukan admin, tolak (tambahan keamanan jika tombol tidak sengaja enabled)
+            var mdi = Application.OpenForms.OfType<FormMDI>().FirstOrDefault();
+            if (!IsUserAdminFromMdi(mdi))
+            {
+                MessageBox.Show("Akses ditolak. Anda bukan admin.", "Akses Ditolak", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             // ambil values dari kontrol dengan beberapa kemungkinan nama
             string kode = GetTextBoxText("txtKodeGuru", "txtKodeUser", "txtKode");
             if (string.IsNullOrWhiteSpace(kode))
@@ -349,13 +413,23 @@ namespace WinFormsApp_Pelanggaran_Siswa
             // validasi minimal untuk tambah: nama, password, role
             if (string.IsNullOrWhiteSpace(nama) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(role))
             {
-                // buat pesan spesifik supaya user tahu field mana yang kosong
                 string missing = "";
                 if (string.IsNullOrWhiteSpace(nama)) missing += "Nama, ";
                 if (string.IsNullOrWhiteSpace(pass)) missing += "Password, ";
                 if (string.IsNullOrWhiteSpace(role)) missing += "Role, ";
                 if (missing.EndsWith(", ")) missing = missing.Substring(0, missing.Length - 2);
                 MessageBox.Show($"Lengkapi field berikut: {missing}", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // normalisasi role (mapping alias -> stored value)
+            string roleToStore = NormalizeRole(role);
+
+            // validasi role terhadap daftar yang diizinkan
+            if (!IsRoleAllowed(roleToStore))
+            {
+                string allowed = string.Join(", ", allowedRolesCache);
+                MessageBox.Show($"Role '{role}' tidak diizinkan oleh aturan database.\nPilih role yang valid: {allowed}", "Role tidak valid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -370,7 +444,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
                         cmd.Parameters.AddWithValue("@kode", kode);
                         cmd.Parameters.AddWithValue("@nama", nama);
                         cmd.Parameters.AddWithValue("@pass", pass);
-                        cmd.Parameters.AddWithValue("@role", role);
+                        cmd.Parameters.AddWithValue("@role", roleToStore);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -413,6 +487,14 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            // jika bukan admin, tolak
+            var mdi = Application.OpenForms.OfType<FormMDI>().FirstOrDefault();
+            if (!IsUserAdminFromMdi(mdi))
+            {
+                MessageBox.Show("Akses ditolak. Anda bukan admin.", "Akses Ditolak", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             string kode = GetTextBoxText("txtKodeGuru", "txtKodeUser", "txtKode");
             string nama = GetTextBoxText("txtNama", "txtnotelp", "txtNamaGuru").Trim();
             string pass = GetTextBoxText("txtPassword", "txtPass", "password").Trim();
@@ -433,6 +515,17 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 return;
             }
 
+            // normalisasi role (mapping alias -> stored value)
+            string roleToStore = NormalizeRole(role);
+
+            // validasi role terhadap daftar yang diizinkan
+            if (!IsRoleAllowed(roleToStore))
+            {
+                string allowed = string.Join(", ", allowedRolesCache);
+                MessageBox.Show($"Role '{role}' tidak diizinkan oleh aturan database.\nPilih role yang valid: {allowed}", "Role tidak valid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             try
             {
                 using (SqlConnection conn = Konn.GetConn())
@@ -447,7 +540,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
                         cmd.Parameters.AddWithValue("@nama", nama);
-                        cmd.Parameters.AddWithValue("@role", role);
+                        cmd.Parameters.AddWithValue("@role", roleToStore);
                         cmd.Parameters.AddWithValue("@kode", kode);
                         if (!string.IsNullOrWhiteSpace(pass)) cmd.Parameters.AddWithValue("@pass", pass);
                         int rows = cmd.ExecuteNonQuery();
@@ -471,6 +564,14 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
         private void btnhapus_Click(object sender, EventArgs e)
         {
+            // jika bukan admin, tolak
+            var mdi = Application.OpenForms.OfType<FormMDI>().FirstOrDefault();
+            if (!IsUserAdminFromMdi(mdi))
+            {
+                MessageBox.Show("Akses ditolak. Anda bukan admin.", "Akses Ditolak", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             string kode = GetTextBoxText("txtKodeGuru", "txtKodeUser", "txtKode");
             if (string.IsNullOrWhiteSpace(kode)) { MessageBox.Show("Pilih guru dulu.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
             if (MessageBox.Show("Yakin hapus guru ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
@@ -532,60 +633,237 @@ namespace WinFormsApp_Pelanggaran_Siswa
             else if (roleCtrl != null) roleCtrl.Text = "";
         }
 
-        private void btnDataSiswa_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            Formsiswa form = new Formsiswa();
-            form.Show();
-            this.Hide();
+
         }
 
-        private void btnJenisPelanggaran_Click(object sender, EventArgs e)
+        private void groupBox4_Enter(object sender, EventArgs e)
         {
-            Formjenispelanggaran form = new Formjenispelanggaran();
-            form.Show();
-            this.Hide();
+
         }
 
-        private void btnInputPelanggaran_Click(object sender, EventArgs e)
+        // ===== helper untuk ambil daftar role dari DB =====
+        private List<string> GetAllowedRolesFromDatabase()
         {
-            FormInputPelanggaran form = new FormInputPelanggaran();
-            form.Show();
-            this.Hide();
+            // 1) coba ambil dari CHECK constraints definisi
+            try
+            {
+                using (SqlConnection conn = Konn.GetConn())
+                {
+                    conn.Open();
+                    string sql = @"
+                        SELECT definition
+                        FROM sys.check_constraints
+                        WHERE parent_object_id = OBJECT_ID('dbo.guru')";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            string def = dr["definition"]?.ToString() ?? "";
+                            var roles = ParseRolesFromConstraintDefinition(def);
+                            if (roles != null && roles.Count > 0) return roles;
+                        }
+                    }
+
+                    // 2) kalau tidak ada constraint yang mudah di-parse, ambil DISTINCT role dari tabel
+                    var distinct = GetDistinctRolesFromTable(conn);
+                    if (distinct != null && distinct.Count > 0) return distinct;
+                }
+            }
+            catch
+            {
+                // ignore, fallback ke default di luar
+            }
+
+            return new List<string>();
         }
 
-        private void btnPersiswa_Click(object sender, EventArgs e)
+        private List<string> ParseRolesFromConstraintDefinition(string def)
         {
-            FormLaporanpersiswa form = new FormLaporanpersiswa();
-            form.Show();
-            this.Hide();
+            if (string.IsNullOrWhiteSpace(def)) return new List<string>();
+
+            // Pertama: coba cari pattern IN (...)  -> ambil items di dalam ()
+            var mIn = Regex.Match(def, @"IN\s*\(\s*([^\)]+)\)", RegexOptions.IgnoreCase);
+            if (mIn.Success)
+            {
+                string inside = mIn.Groups[1].Value;
+                var matches = Regex.Matches(inside, @"'([^']+)'");
+                var list = matches.Cast<Match>().Select(x => x.Groups[1].Value.Trim()).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+                if (list.Count > 0) return list;
+            }
+
+            // Kedua: fallback: ambil semua token yang di-quote dalam definisi (bisa karena OR checks)
+            var allQuoted = Regex.Matches(def, @"'([^']+)'");
+            var arr = allQuoted.Cast<Match>().Select(x => x.Groups[1].Value.Trim()).Where(s => !string.IsNullOrEmpty(s)).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+            return arr;
         }
 
-        private void btnPerkelas_Click(object sender, EventArgs e)
+        private List<string> GetDistinctRolesFromTable(SqlConnection conn)
         {
-            FormLaporanperkelas form = new FormLaporanperkelas();
-            form.Show();
-            this.Hide();
+            try
+            {
+                var list = new List<string>();
+                string sql = "SELECT DISTINCT role FROM dbo.guru WHERE role IS NOT NULL AND LTRIM(RTRIM(role))<>''";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        list.Add(dr.GetString(0).Trim());
+                    }
+                }
+                return list;
+            }
+            catch
+            {
+                return new List<string>();
+            }
         }
 
-        private void btnSuratPeringatan_Click(object sender, EventArgs e)
+        private bool IsRoleAllowed(string role)
         {
-            SuratPeringatan form = new SuratPeringatan();
-            form.Show();
-            this.Hide();
+            if (string.IsNullOrWhiteSpace(role)) return false;
+            return allowedRolesCache.Any(r => string.Equals(r, role, StringComparison.OrdinalIgnoreCase));
         }
 
-        private void btnPengaturan_Click(object sender, EventArgs e)
+        // ===== helper normalize role (alias -> allowed role) =====
+        private string NormalizeRole(string role)
         {
-            Pengaturan form = new Pengaturan();
-            form.Show();
-            this.Hide();
+            if (string.IsNullOrWhiteSpace(role)) return role;
+            var r = role.Trim();
+
+            // cek alias mapping dulu (menjadi "guru bk" jika cocok)
+            if (roleAliases.TryGetValue(r, out var mapped)) return mapped;
+
+            // coba normalisasi spasi/punctuation lalu cek mapping
+            var normalized = Regex.Replace(r.ToLowerInvariant(), @"[\s\-_]+", " ").Trim();
+            if (roleAliases.TryGetValue(normalized, out var mapped2)) return mapped2;
+
+            // jika role persis cocok salah satu allowedRolesCache, kembalikan versi dari cache (preserve casing)
+            var found = allowedRolesCache.FirstOrDefault(x => string.Equals(x, r, StringComparison.OrdinalIgnoreCase));
+            if (found != null) return found;
+
+            // juga coba match setelah normalisasi spasi
+            found = allowedRolesCache.FirstOrDefault(x => string.Equals(x, normalized, StringComparison.OrdinalIgnoreCase));
+            if (found != null) return found;
+
+            // fallback: kembalikan trimmed input (tidak diubah)
+            return r;
         }
 
-        private void btndashboard_Click_1(object sender, EventArgs e)
+        // ===== role/permission helpers to disable controls if not admin =====
+        private bool IsUserAdminFromMdi(FormMDI mdi)
         {
-            FormPelanggara form = new FormPelanggara();
-            form.Show();
-            this.Hide();
+            if (mdi == null) return false;
+
+            try
+            {
+                // cek label lblrole bila ada
+                var ctrl = mdi.Controls.Find("lblrole", true).FirstOrDefault() as Label;
+                if (ctrl != null)
+                {
+                    var roleText = ctrl.Text?.Trim() ?? "";
+                    if (roleText.IndexOf("admin", StringComparison.OrdinalIgnoreCase) >= 0)
+                        return true;
+                }
+
+                // coba baca field currentUserRole via reflection jika ada
+                var field = mdi.GetType().GetField("currentUserRole", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public);
+                if (field != null)
+                {
+                    var val = field.GetValue(mdi) as string;
+                    if (!string.IsNullOrEmpty(val) && val.Equals("admin", StringComparison.OrdinalIgnoreCase))
+                        return true;
+                }
+            }
+            catch
+            {
+                // ignore
+            }
+
+            return false;
+        }
+
+        private void ApplyRolePermissions()
+        {
+            try
+            {
+                var mdi = Application.OpenForms.OfType<FormMDI>().FirstOrDefault();
+                bool isAdmin = IsUserAdminFromMdi(mdi);
+
+                // List tombol yang berhubungan dengan mutasi data (disable jika bukan admin)
+                string[] buttonNames = new[] { "btntambah", "btnEdit", "btnUpdate", "btnhapus", "btnbatal" };
+                foreach (var bn in buttonNames)
+                {
+                    var arr = this.Controls.Find(bn, true);
+                    if (arr.Length > 0 && arr[0] is Button btn)
+                    {
+                        btn.Enabled = isAdmin;
+                        if (!isAdmin)
+                        {
+                            _roleToolTip.SetToolTip(btn, "Anda bukan admin");
+                            btn.Cursor = Cursors.No;
+                        }
+                        else
+                        {
+                            _roleToolTip.SetToolTip(btn, null);
+                            btn.Cursor = Cursors.Default;
+                        }
+                    }
+                }
+
+                // Textbox / input fields: disable (Enabled=false) jika bukan admin
+                string[] textNames = new[] { "txtKodeGuru", "txtKodeUser", "txtKode", "txtNama", "txtNamaGuru", "txtnotelp", "txtPassword", "txtPass" };
+                foreach (var tn in textNames)
+                {
+                    var arr = this.Controls.Find(tn, true);
+                    if (arr.Length > 0)
+                    {
+                        var c = arr[0];
+                        // untuk TextBox set Enabled false agar terlihat disabled
+                        if (c is TextBox tb)
+                        {
+                            tb.Enabled = isAdmin;
+                            if (!isAdmin) _roleToolTip.SetToolTip(tb, "Anda bukan admin");
+                            else _roleToolTip.SetToolTip(tb, null);
+                        }
+                        else
+                        {
+                            c.Enabled = isAdmin;
+                            if (!isAdmin) _roleToolTip.SetToolTip(c, "Anda bukan admin");
+                            else _roleToolTip.SetToolTip(c, null);
+                        }
+                    }
+                }
+
+                // role control
+                var roleCtrl = FindRoleControl();
+                if (roleCtrl != null)
+                {
+                    roleCtrl.Enabled = isAdmin;
+                    if (!isAdmin) _roleToolTip.SetToolTip(roleCtrl, "Anda bukan admin");
+                    else _roleToolTip.SetToolTip(roleCtrl, null);
+                }
+
+                // Jika bukan admin, juga non-aktifkan tombol tambah pada toolbar / panel lain jika ada
+                // (cari button dengan text "Tambah" sebagai fallback)
+                var allButtons = this.Controls.Find("*", true).OfType<Button>();
+                foreach (var btn in allButtons)
+                {
+                    if (btn.Text != null && btn.Text.ToLower().Contains("tambah"))
+                    {
+                        btn.Enabled = isAdmin;
+                        if (!isAdmin) _roleToolTip.SetToolTip(btn, "Anda bukan admin");
+                        else _roleToolTip.SetToolTip(btn, null);
+                    }
+                }
+            }
+            catch
+            {
+                // don't crash if permission application fails
+            }
         }
     }
 }

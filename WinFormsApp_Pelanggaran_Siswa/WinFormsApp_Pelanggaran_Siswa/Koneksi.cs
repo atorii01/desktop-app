@@ -1,19 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
+
 namespace LoginDatabase
 {
-    class Koneksi
+    public sealed class Koneksi
     {
+        // Singleton instance
+        private static readonly Koneksi instance = new Koneksi();
+
+        // Use a private constructor to prevent external instantiation
+        private Koneksi() { }
+
+        // Public property to get the single instance
+        public static Koneksi Instance => instance;
+
+        // Connection string
+        private readonly string connectionString =
+            "Data Source=HYPEAMD\\SQLEXPRESS;" +
+            "Initial Catalog=POS_Pelanggaran;" +
+            "Integrated Security=True;" +
+            "TrustServerCertificate=True;" +
+            "Max Pool Size=200;" +
+            "Connection Timeout=15;";
+
+        // Method to get a new SqlConnection object
         public SqlConnection GetConn()
         {
-            SqlConnection Conn = new SqlConnection();
-            Conn.ConnectionString = "Data Source = TUFA16\\SQLEXPRESS ; initial " +
-                "catalog = POS_Pelanggaran; integrated security = true";
-            return Conn;
+            return new SqlConnection(connectionString);
         }
     }
 }

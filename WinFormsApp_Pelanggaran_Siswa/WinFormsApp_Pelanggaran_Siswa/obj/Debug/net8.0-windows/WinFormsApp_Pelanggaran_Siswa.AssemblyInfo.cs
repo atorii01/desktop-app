@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsApp_Pelanggaran_Siswa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4948afc3689363670940bff69624db72126bab06")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsApp_Pelanggaran_Siswa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsApp_Pelanggaran_Siswa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

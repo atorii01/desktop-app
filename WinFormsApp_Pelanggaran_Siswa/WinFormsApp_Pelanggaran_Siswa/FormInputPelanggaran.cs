@@ -4,86 +4,300 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace WinFormsApp_Pelanggaran_Siswa
 {
     public partial class FormInputPelanggaran : Form
     {
-        private readonly Koneksi Konn = new Koneksi();
+        private readonly Koneksi Konn = Koneksi.Instance;
         private int selectedIdPelanggaran = -1;
         private BindingSource bs = new BindingSource();
         private readonly string placeholderCari = "cari pelanggaran";
-        private bool isProcessing = false; // guard re-entrancy
+        private bool isProcessing = false;
 
         public FormInputPelanggaran()
         {
             InitializeComponent();
 
-            // safe attach Load
-            this.Load -= FormInputPelanggaran_Load;
-            this.Load += FormInputPelanggaran_Load;
+            // Subscribe ke event manager SEBELUM load
+            DataChangedEventManager.Instance.SiswaDataChanged += OnSiswaDataChanged;
+            DataChangedEventManager.Instance.AllDataCleared += OnAllDataCleared;
 
-            // safe event wiring (remove then add)
-            if (this.Controls.Find("txtNisSiswa", true).Length > 0)
+            // Load event - tambahkan di sini juga
+            this.Load += FormInputPelanggaran_Load_1;
+
+            // Event wiring
+            if (txtNisSiswa != null) txtNisSiswa.Leave += TxtNisSiswa_Leave;
+            if (txtidjenispelanggaran != null) txtidjenispelanggaran.Leave += TxtIdJenisPelanggaran_Leave;
+            if (btntambah != null) btntambah.Click += btntambah_Click;
+            if (btnEdit != null) btnEdit.Click += btnEdit_Click;
+            if (btnUpdate != null) btnUpdate.Click += btnUpdate_Click;
+            if (btnhapus != null) btnhapus.Click += btnhapus_Click;
+            if (btnbatal != null) btnbatal.Click += btnbatal_Click;
+            if (dataGridView1 != null) dataGridView1.CellClick += dataGridView1_CellClick;
+
+            if (txtcari != null)
             {
-                txtNisSiswa.Leave -= TxtNisSiswa_Leave;
-                txtNisSiswa.Leave += TxtNisSiswa_Leave;
-            }
-
-            if (this.Controls.Find("txtidjenispelanggaran", true).Length > 0)
-            {
-                txtidjenispelanggaran.Leave -= TxtIdJenisPelanggaran_Leave;
-                txtidjenispelanggaran.Leave += TxtIdJenisPelanggaran_Leave;
-            }
-
-            if (this.Controls.Find("btntambah", true).Length > 0)
-            {
-                btntambah.Click -= btntambah_Click;
-                btntambah.Click += btntambah_Click;
-            }
-
-            if (this.Controls.Find("btnEdit", true).Length > 0)
-            {
-                btnEdit.Click -= btnEdit_Click;
-                btnEdit.Click += btnEdit_Click;
-            }
-
-            if (this.Controls.Find("btnUpdate", true).Length > 0)
-            {
-                btnUpdate.Click -= btnUpdate_Click;
-                btnUpdate.Click += btnUpdate_Click;
-            }
-
-            if (this.Controls.Find("btnhapus", true).Length > 0)
-            {
-                btnhapus.Click -= btnhapus_Click;
-                btnhapus.Click += btnhapus_Click;
-            }
-
-            if (this.Controls.Find("btnbatal", true).Length > 0)
-            {
-                btnbatal.Click -= btnbatal_Click;
-                btnbatal.Click += btnbatal_Click;
-            }
-
-            if (this.Controls.Find("dataGridView1", true).Length > 0)
-            {
-                dataGridView1.CellClick -= dataGridView1_CellClick;
-                dataGridView1.CellClick += dataGridView1_CellClick;
-            }
-
-            if (this.Controls.Find("txtcari", true).Length > 0)
-            {
-                txtcari.GotFocus -= Txtcari_GotFocus;
-                txtcari.LostFocus -= Txtcari_LostFocus;
-                txtcari.TextChanged -= Txtcari_TextChanged;
-
-                txtcari.ForeColor = Color.Gray;
-                txtcari.Text = placeholderCari;
-
                 txtcari.GotFocus += Txtcari_GotFocus;
                 txtcari.LostFocus += Txtcari_LostFocus;
                 txtcari.TextChanged += Txtcari_TextChanged;
+                txtcari.ForeColor = Color.Gray;
+                txtcari.Text = placeholderCari;
+            }
+
+            // Subscribe form closing untuk cleanup
+            this.FormClosing += FormInputPelanggaran_FormClosing;
+        }
+
+        // ===== NEW: HELPER METHOD UNTUK SYNC BACKUP =====
+        private void SyncBackupTable(SqlConnection conn, SqlTransaction tran, string tableName, string pkColumn, object pkValue, string operation)
+        {
+            try
+            {
+                string backupTableName = tableName + "_backup";
+
+                // Cek apakah tabel backup exists
+                bool backupExists = false;
+                using (SqlCommand cmd = new SqlCommand(@"
+                    SELECT COUNT(1) 
+                    FROM INFORMATION_SCHEMA.TABLES 
+                    WHERE TABLE_SCHEMA='dbo' AND TABLE_NAME=@tname", conn, tran))
+                {
+                    cmd.Parameters.AddWithValue("@tname", backupTableName);
+                    backupExists = Convert.ToInt32(cmd.ExecuteScalar()) > 0;
+                }
+
+                if (!backupExists)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Backup table {backupTableName} tidak ada, skip sync");
+                    return;
+                }
+
+                if (operation == "DELETE")
+                {
+                    // Hapus dari backup juga
+                    string deleteSql = $"DELETE FROM dbo.{backupTableName} WHERE [{pkColumn}] = @pk";
+                    using (SqlCommand cmd = new SqlCommand(deleteSql, conn, tran))
+                    {
+                        cmd.Parameters.AddWithValue("@pk", pkValue);
+                        int deleted = cmd.ExecuteNonQuery();
+                        System.Diagnostics.Debug.WriteLine($"Sync backup: Deleted {deleted} rows from {backupTableName}");
+                    }
+                }
+                else if (operation == "INSERT" || operation == "UPDATE")
+                {
+                    // Ambil column list
+                    var cols = new List<string>();
+                    using (SqlCommand cmd = new SqlCommand(@"
+                        SELECT COLUMN_NAME 
+                        FROM INFORMATION_SCHEMA.COLUMNS 
+                        WHERE TABLE_NAME=@tname AND TABLE_SCHEMA='dbo'
+                        ORDER BY ORDINAL_POSITION", conn, tran))
+                    {
+                        cmd.Parameters.AddWithValue("@tname", tableName);
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read()) cols.Add(reader.GetString(0));
+                        }
+                    }
+
+                    if (cols.Count == 0) return;
+
+                    string colList = string.Join(", ", cols.Select(c => "[" + c + "]"));
+
+                    // Cek apakah data sudah ada di backup
+                    bool existsInBackup = false;
+                    using (SqlCommand cmd = new SqlCommand($"SELECT COUNT(1) FROM dbo.{backupTableName} WHERE [{pkColumn}] = @pk", conn, tran))
+                    {
+                        cmd.Parameters.AddWithValue("@pk", pkValue);
+                        existsInBackup = Convert.ToInt32(cmd.ExecuteScalar()) > 0;
+                    }
+
+                    // Cek apakah table punya identity column
+                    bool hasIdentity = false;
+                    using (SqlCommand cmd = new SqlCommand(@"
+                        SELECT COLUMNPROPERTY(OBJECT_ID(@tableName), @columnName, 'IsIdentity')", conn, tran))
+                    {
+                        cmd.Parameters.AddWithValue("@tableName", "dbo." + backupTableName);
+                        cmd.Parameters.AddWithValue("@columnName", pkColumn);
+                        object result = cmd.ExecuteScalar();
+                        hasIdentity = result != null && result != DBNull.Value && Convert.ToInt32(result) == 1;
+                    }
+
+                    if (existsInBackup)
+                    {
+                        // UPDATE di backup
+                        if (hasIdentity)
+                        {
+                            using (SqlCommand cmd = new SqlCommand($"SET IDENTITY_INSERT dbo.{backupTableName} ON;", conn, tran))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+
+                        string updateSql = $@"
+                            DELETE FROM dbo.{backupTableName} WHERE [{pkColumn}] = @pk;
+                            INSERT INTO dbo.{backupTableName} ({colList})
+                            SELECT {colList} FROM dbo.{tableName} WHERE [{pkColumn}] = @pk";
+
+                        using (SqlCommand cmd = new SqlCommand(updateSql, conn, tran))
+                        {
+                            cmd.Parameters.AddWithValue("@pk", pkValue);
+                            cmd.ExecuteNonQuery();
+                            System.Diagnostics.Debug.WriteLine($"Sync backup: Updated row in {backupTableName}");
+                        }
+
+                        if (hasIdentity)
+                        {
+                            using (SqlCommand cmd = new SqlCommand($"SET IDENTITY_INSERT dbo.{backupTableName} OFF;", conn, tran))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // INSERT ke backup
+                        if (hasIdentity)
+                        {
+                            using (SqlCommand cmd = new SqlCommand($"SET IDENTITY_INSERT dbo.{backupTableName} ON;", conn, tran))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+
+                        string insertSql = $@"
+                            INSERT INTO dbo.{backupTableName} ({colList})
+                            SELECT {colList} FROM dbo.{tableName} WHERE [{pkColumn}] = @pk";
+
+                        using (SqlCommand cmd = new SqlCommand(insertSql, conn, tran))
+                        {
+                            cmd.Parameters.AddWithValue("@pk", pkValue);
+                            int inserted = cmd.ExecuteNonQuery();
+                            System.Diagnostics.Debug.WriteLine($"Sync backup: Inserted {inserted} rows to {backupTableName}");
+                        }
+
+                        if (hasIdentity)
+                        {
+                            using (SqlCommand cmd = new SqlCommand($"SET IDENTITY_INSERT dbo.{backupTableName} OFF;", conn, tran))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error syncing backup table: {ex.Message}");
+                // Jangan throw error, biarkan operasi utama tetap jalan
+            }
+        }
+
+        private void FormInputPelanggaran_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Unsubscribe dari event manager untuk mencegah memory leak
+            DataChangedEventManager.Instance.SiswaDataChanged -= OnSiswaDataChanged;
+            DataChangedEventManager.Instance.AllDataCleared -= OnAllDataCleared;
+        }
+
+        // Handler ketika data siswa berubah dari form lain
+        private void OnSiswaDataChanged(object sender, EventArgs e)
+        {
+            // Reload grid karena data siswa berubah (bisa mempengaruhi relasi)
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke(new Action(() => LoadGrid()));
+            }
+            else
+            {
+                LoadGrid();
+            }
+        }
+
+        // Handler ketika semua data dihapus (setelah ekspor)
+        private void OnAllDataCleared(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Debug.WriteLine("FormInputPelanggaran: OnAllDataCleared triggered!");
+
+                if (this.InvokeRequired)
+                {
+                    this.BeginInvoke(new Action(() =>
+                    {
+                        System.Diagnostics.Debug.WriteLine("FormInputPelanggaran: Executing reset and LoadGrid");
+
+                        // ===== RESET FILTER DULU SEBELUM LOAD =====
+                        if (bs != null)
+                        {
+                            bs.RemoveFilter();
+                        }
+
+                        if (txtcari != null)
+                        {
+                            txtcari.TextChanged -= Txtcari_TextChanged;
+                            txtcari.Text = placeholderCari;
+                            txtcari.ForeColor = Color.Gray;
+                            txtcari.TextChanged += Txtcari_TextChanged;
+                        }
+
+                        // Load grid & clear form
+                        LoadGrid();
+                        ClearForm();
+
+                        MessageBox.Show("Form Pelanggaran telah di-reset.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }));
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine("FormInputPelanggaran: Executing reset and LoadGrid (direct)");
+
+                    // Reset filter
+                    if (bs != null)
+                    {
+                        bs.RemoveFilter();
+                    }
+
+                    if (txtcari != null)
+                    {
+                        txtcari.TextChanged -= Txtcari_TextChanged;
+                        txtcari.Text = placeholderCari;
+                        txtcari.ForeColor = Color.Gray;
+                        txtcari.TextChanged += Txtcari_TextChanged;
+                    }
+
+                    LoadGrid();
+                    ClearForm();
+
+                    MessageBox.Show("Form Pelanggaran telah di-reset.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"FormInputPelanggaran: Error in OnAllDataCleared - {ex.Message}");
+                MessageBox.Show($"Error clearing form: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void Txtcari_TextChanged(object sender, EventArgs e)
+        {
+            if (txtcari.Text == placeholderCari) return;
+            string keyword = txtcari.Text.Trim().Replace("'", "''");
+
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                bs.RemoveFilter();
+            }
+            else
+            {
+                if (!string.IsNullOrEmpty(keyword))
+                {
+                    string filter = $"nis LIKE '%{keyword}%' OR nama_siswa LIKE '%{keyword}%' OR nama_pelanggaran LIKE '%{keyword}%'";
+                    bs.Filter = filter;
+                }
             }
         }
 
@@ -105,15 +319,15 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        private void FormInputPelanggaran_Load(object sender, EventArgs e)
+        private void FormInputPelanggaran_Load_1(object sender, EventArgs e)
         {
-            if (this.Controls.Find("txtid_pelanggaran", true).Length > 0)
+            if (txtid_pelanggaran != null)
             {
                 txtid_pelanggaran.Text = GetNextIdPelanggaran().ToString();
                 txtid_pelanggaran.ReadOnly = true;
             }
-            if (this.Controls.Find("dateKejadian", true).Length > 0) dateKejadian.Value = DateTime.Today;
-            if (this.Controls.Find("txtWaktuKejadian", true).Length > 0) txtWaktuKejadian.Text = DateTime.Now.ToString("HH:mm");
+            if (dateKejadian != null) dateKejadian.Value = DateTime.Today;
+            if (txtWaktuKejadian != null) txtWaktuKejadian.Text = DateTime.Now.ToString("HH:mm");
 
             LoadGrid();
             SetInitialButtonState();
@@ -121,10 +335,10 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
         private void SetInitialButtonState()
         {
-            if (this.Controls.Find("btntambah", true).Length > 0) btntambah.Enabled = true;
-            if (this.Controls.Find("btnEdit", true).Length > 0) btnEdit.Enabled = false;
-            if (this.Controls.Find("btnUpdate", true).Length > 0) btnUpdate.Enabled = false;
-            if (this.Controls.Find("btnhapus", true).Length > 0) btnhapus.Enabled = false;
+            btntambah.Enabled = true;
+            btnEdit.Enabled = false;
+            btnUpdate.Enabled = false;
+            btnhapus.Enabled = false;
         }
 
         private int GetNextIdPelanggaran()
@@ -153,13 +367,12 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 using (SqlConnection conn = Konn.GetConn())
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand(
-                        "SELECT COUNT(1) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='dbo' AND TABLE_NAME=@table AND COLUMN_NAME=@col", conn))
+                    string sql = "SELECT COUNT(1) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='dbo' AND TABLE_NAME=@table AND COLUMN_NAME=@col";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
                         cmd.Parameters.AddWithValue("@table", tableName);
                         cmd.Parameters.AddWithValue("@col", columnName);
-                        int c = Convert.ToInt32(cmd.ExecuteScalar() ?? 0);
-                        return c > 0;
+                        return Convert.ToInt32(cmd.ExecuteScalar() ?? 0) > 0;
                     }
                 }
             }
@@ -176,15 +389,15 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 bool hasKodeGuru = ColumnExists("pelanggaran", "kode_guru");
 
                 string selectCols = @"
-                    p.id_pelanggaran,
-                    p.nis,
-                    ISNULL(s.nama, '') AS nama_siswa,
-                    ISNULL(s.kelas, '') AS kelas,
-                    ISNULL(s.wali_kelas, '') AS wali_kelas,
-                    p.id_jenis,
-                    ISNULL(j.nama_pelanggaran, '') AS nama_pelanggaran,
-                    ISNULL(j.point, 0) AS point,
-                    p.tanggal, p.waktu, p.tempat_kejadian, p.keterangan, p.created_at";
+            p.id_pelanggaran,
+            p.nis,
+            ISNULL(s.nama, '') AS nama_siswa,
+            ISNULL(s.kelas, '') AS kelas,
+            ISNULL(s.wali_kelas, '') AS wali_kelas,
+            p.id_jenis,
+            ISNULL(j.nama_pelanggaran, '') AS nama_pelanggaran,
+            ISNULL(j.point, 0) AS point,
+            p.tanggal, p.waktu, p.tempat_kejadian, p.keterangan, p.created_at";
 
                 if (hasKodeGuru) selectCols += ", p.kode_guru";
 
@@ -200,17 +413,26 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     }
                 }
 
+                // ===== LOG UNTUK DEBUG =====
+                System.Diagnostics.Debug.WriteLine($"LoadGrid: Query returned {dt.Rows.Count} rows from database");
+
                 foreach (DataRow r in dt.Rows)
                     for (int c = 0; c < dt.Columns.Count; c++)
                         if (r.IsNull(c)) r[c] = "";
 
                 bs.DataSource = dt;
+                bs.RemoveFilter(); // ===== PENTING: REMOVE FILTER APAPUN =====
                 dataGridView1.DataSource = bs;
+
+                // ===== LOG SETELAH BINDING =====
+                System.Diagnostics.Debug.WriteLine($"LoadGrid: Grid now has {dataGridView1.Rows.Count} visible rows");
+                System.Diagnostics.Debug.WriteLine($"LoadGrid: BindingSource filter = '{bs.Filter}'");
 
                 dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
                 dataGridView1.RowTemplate.Height = 26;
 
+                // ... (header text setup sama seperti sebelumnya)
                 if (dataGridView1.Columns.Contains("id_pelanggaran")) dataGridView1.Columns["id_pelanggaran"].HeaderText = "ID";
                 if (dataGridView1.Columns.Contains("nis")) dataGridView1.Columns["nis"].HeaderText = "NIS";
                 if (dataGridView1.Columns.Contains("nama_siswa")) dataGridView1.Columns["nama_siswa"].HeaderText = "Nama";
@@ -231,7 +453,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        // helper: set control text safe
         private void SetIfControlExists(string name, string value)
         {
             var arr = this.Controls.Find(name, true);
@@ -242,7 +463,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        // helper: get control text safe
         private string GetIfControlText(string name)
         {
             var arr = this.Controls.Find(name, true);
@@ -251,23 +471,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
             return arr[0].Text;
         }
 
-        // helper: cek record duplicate untuk insert berdasarkan nis,id_jenis,tanggal,waktu
-        private bool RecordExistsForInsert(SqlConnection conn, SqlTransaction tr, string nis, int idJenis, DateTime tanggal, TimeSpan waktu)
-        {
-            string chkSql = @"SELECT COUNT(1) FROM dbo.pelanggaran 
-                              WHERE nis = @nis AND id_jenis = @idjenis AND tanggal = @tanggal AND waktu = @waktu";
-            using (SqlCommand chk = new SqlCommand(chkSql, conn, tr))
-            {
-                chk.Parameters.AddWithValue("@nis", nis);
-                chk.Parameters.AddWithValue("@idjenis", idJenis);
-                chk.Parameters.AddWithValue("@tanggal", tanggal);
-                chk.Parameters.AddWithValue("@waktu", waktu);
-                int cnt = Convert.ToInt32(chk.ExecuteScalar() ?? 0);
-                return cnt > 0;
-            }
-        }
-
-        // helper: recalc total_point for a nis (safer than incremental add)
         private void RecalculateTotalPoint(SqlConnection conn, SqlTransaction tr, string nis)
         {
             string recalcSql = @"
@@ -289,7 +492,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        // when user leaves NIS field -> autopopulate siswa data
         private void TxtNisSiswa_Leave(object sender, EventArgs e)
         {
             string nis = GetIfControlText("txtNisSiswa").Trim();
@@ -329,7 +531,6 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        // when user leaves id jenis field -> autopopulate jenis_pelanggaran data
         private void TxtIdJenisPelanggaran_Leave(object sender, EventArgs e)
         {
             string idJenisText = GetIfControlText("txtidjenispelanggaran").Trim();
@@ -373,16 +574,14 @@ namespace WinFormsApp_Pelanggaran_Siswa
             }
         }
 
-        // INSERT (defensive + uses recalc)
         private void btntambah_Click(object sender, EventArgs e)
         {
             if (isProcessing) return;
             isProcessing = true;
-            if (this.Controls.Find("btntambah", true).Length > 0) btntambah.Enabled = false;
+            btntambah.Enabled = false;
 
             try
             {
-                int idPelanggaranPreview = GetNextIdPelanggaran();
                 string nis = GetIfControlText("txtNisSiswa").Trim();
                 string kodeGuru = GetIfControlText("txtKodeGuru").Trim();
                 string idJenisText = GetIfControlText("txtidjenispelanggaran").Trim();
@@ -407,14 +606,12 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 }
                 if (!TimeSpan.TryParse(waktuText, out TimeSpan waktu))
                 {
-                    if (!TimeSpan.TryParseExact(waktuText, "hh\\:mm", null, out waktu))
-                    {
-                        MessageBox.Show("Format waktu salah. Gunakan HH:mm (contoh: 13:30).", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
+                    MessageBox.Show("Format waktu salah. Gunakan HH:mm (contoh: 13:30).", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
 
                 bool hasKodeGuru = ColumnExists("pelanggaran", "kode_guru");
+                int newIdPelanggaran = -1;
 
                 using (SqlConnection conn = Konn.GetConn())
                 {
@@ -423,81 +620,68 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     {
                         try
                         {
-                            // Prevent duplicate identical event
-                            if (RecordExistsForInsert(conn, tr, nis, idJenis, tanggal, waktu))
+                            int currentTotalPoint = 0;
+                            using (SqlCommand chk = new SqlCommand("SELECT ISNULL(total_point,0) FROM dbo.siswa WHERE nis=@nis", conn, tr))
                             {
-                                MessageBox.Show("Pelanggaran serupa sudah tercatat. Insert dibatalkan untuk mencegah duplikasi.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                chk.Parameters.AddWithValue("@nis", nis);
+                                object o = chk.ExecuteScalar();
+                                currentTotalPoint = Convert.ToInt32(o ?? 0);
+                            }
+
+                            if (currentTotalPoint > 100)
+                            {
                                 tr.Rollback();
+                                MessageBox.Show(
+                                    $"Tidak bisa menambahkan pelanggaran. Total poin siswa saat ini sudah {currentTotalPoint} (lebih dari 100).",
+                                    "Peringatan",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Warning
+                                );
                                 return;
                             }
 
-                            // Insert
-                            bool idIsIdentity = false;
-                            using (SqlCommand idCheck = new SqlCommand(@"
-                                SELECT COLUMNPROPERTY(OBJECT_ID('dbo.pelanggaran'),'id_pelanggaran','IsIdentity')", conn, tr))
+                            string insertSql = hasKodeGuru
+                                ? @"INSERT INTO dbo.pelanggaran (nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, kode_guru, created_at)
+                                    VALUES (@nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, @kodeguru, GETDATE());
+                                    SELECT CAST(SCOPE_IDENTITY() AS INT);"
+                                : @"INSERT INTO dbo.pelanggaran (nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, created_at)
+                                    VALUES (@nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, GETDATE());
+                                    SELECT CAST(SCOPE_IDENTITY() AS INT);";
+
+                            using (SqlCommand cmd = new SqlCommand(insertSql, conn, tr))
                             {
-                                var obj = idCheck.ExecuteScalar();
-                                if (obj != DBNull.Value && obj != null && Convert.ToInt32(obj) == 1) idIsIdentity = true;
+                                cmd.Parameters.AddWithValue("@nis", nis);
+                                cmd.Parameters.AddWithValue("@idjenis", idJenis);
+                                cmd.Parameters.AddWithValue("@tanggal", tanggal);
+                                cmd.Parameters.AddWithValue("@waktu", waktu);
+                                cmd.Parameters.AddWithValue("@tempat", string.IsNullOrWhiteSpace(tempat) ? (object)DBNull.Value : tempat);
+                                cmd.Parameters.AddWithValue("@keterangan", string.IsNullOrWhiteSpace(keterangan) ? (object)DBNull.Value : keterangan);
+                                if (hasKodeGuru) cmd.Parameters.AddWithValue("@kodeguru", string.IsNullOrWhiteSpace(kodeGuru) ? (object)DBNull.Value : kodeGuru);
+
+                                newIdPelanggaran = Convert.ToInt32(cmd.ExecuteScalar());
                             }
 
-                            if (idIsIdentity)
-                            {
-                                string insertSql = hasKodeGuru
-                                    ? @"INSERT INTO dbo.pelanggaran (nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, kode_guru, created_at)
-                                        VALUES (@nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, @kodeguru, GETDATE());
-                                      SELECT SCOPE_IDENTITY();"
-                                    : @"INSERT INTO dbo.pelanggaran (nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, created_at)
-                                        VALUES (@nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, GETDATE());
-                                      SELECT SCOPE_IDENTITY();";
-
-                                using (SqlCommand cmd = new SqlCommand(insertSql, conn, tr))
-                                {
-                                    cmd.Parameters.AddWithValue("@nis", nis);
-                                    cmd.Parameters.AddWithValue("@idjenis", idJenis);
-                                    cmd.Parameters.AddWithValue("@tanggal", tanggal);
-                                    cmd.Parameters.AddWithValue("@waktu", waktu);
-                                    cmd.Parameters.AddWithValue("@tempat", string.IsNullOrWhiteSpace(tempat) ? (object)DBNull.Value : tempat);
-                                    cmd.Parameters.AddWithValue("@keterangan", string.IsNullOrWhiteSpace(keterangan) ? (object)DBNull.Value : keterangan);
-                                    if (hasKodeGuru) cmd.Parameters.AddWithValue("@kodeguru", string.IsNullOrWhiteSpace(kodeGuru) ? (object)DBNull.Value : kodeGuru);
-                                    cmd.ExecuteScalar();
-                                }
-                            }
-                            else
-                            {
-                                string insertSql = hasKodeGuru
-                                    ? @"INSERT INTO dbo.pelanggaran (id_pelanggaran, nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, kode_guru, created_at)
-                                        VALUES (@id, @nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, @kodeguru, GETDATE())"
-                                    : @"INSERT INTO dbo.pelanggaran (id_pelanggaran, nis, id_jenis, tanggal, waktu, tempat_kejadian, keterangan, created_at)
-                                        VALUES (@id, @nis, @idjenis, @tanggal, @waktu, @tempat, @keterangan, GETDATE())";
-
-                                using (SqlCommand cmd = new SqlCommand(insertSql, conn, tr))
-                                {
-                                    cmd.Parameters.AddWithValue("@id", idPelanggaranPreview);
-                                    cmd.Parameters.AddWithValue("@nis", nis);
-                                    cmd.Parameters.AddWithValue("@idjenis", idJenis);
-                                    cmd.Parameters.AddWithValue("@tanggal", tanggal);
-                                    cmd.Parameters.AddWithValue("@waktu", waktu);
-                                    cmd.Parameters.AddWithValue("@tempat", string.IsNullOrWhiteSpace(tempat) ? (object)DBNull.Value : tempat);
-                                    cmd.Parameters.AddWithValue("@keterangan", string.IsNullOrWhiteSpace(keterangan) ? (object)DBNull.Value : keterangan);
-                                    if (hasKodeGuru) cmd.Parameters.AddWithValue("@kodeguru", string.IsNullOrWhiteSpace(kodeGuru) ? (object)DBNull.Value : kodeGuru);
-                                    cmd.ExecuteNonQuery();
-                                }
-                            }
-
-                            // Recalculate total_point for this student (one-time, robust)
                             RecalculateTotalPoint(conn, tr, nis);
+
+                            // ===== SYNC KE BACKUP TABLE =====
+                            SyncBackupTable(conn, tr, "pelanggaran", "id_pelanggaran", newIdPelanggaran, "INSERT");
 
                             tr.Commit();
                         }
-                        catch
+                        catch (Exception)
                         {
-                            tr.Rollback();
+                            try { tr.Rollback(); } catch { }
                             throw;
                         }
-                    } // transaksi
-                } // conn
+                    }
+                }
 
                 MessageBox.Show("Pelanggaran berhasil ditambah dan poin siswa terupdate.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Notify bahwa data pelanggaran berubah
+                DataChangedEventManager.Instance.NotifyPelanggaranDataChanged();
+                DataChangedEventManager.Instance.NotifySiswaDataChanged();
+
                 LoadGrid();
                 ClearForm();
             }
@@ -508,23 +692,22 @@ namespace WinFormsApp_Pelanggaran_Siswa
             finally
             {
                 isProcessing = false;
-                if (this.Controls.Find("btntambah", true).Length > 0) btntambah.Enabled = true;
+                btntambah.Enabled = true;
             }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (selectedIdPelanggaran <= 0) { MessageBox.Show("Pilih baris pelanggaran dulu.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
-            if (this.Controls.Find("btnUpdate", true).Length > 0) btnUpdate.Enabled = true;
-            if (this.Controls.Find("btntambah", true).Length > 0) btntambah.Enabled = false;
+            btnUpdate.Enabled = true;
+            btntambah.Enabled = false;
         }
 
-        // UPDATE (uses recalc)
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             if (isProcessing) return;
             isProcessing = true;
-            if (this.Controls.Find("btnUpdate", true).Length > 0) btnUpdate.Enabled = false;
+            btnUpdate.Enabled = false;
 
             try
             {
@@ -550,11 +733,8 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 }
                 if (!TimeSpan.TryParse(waktuText, out TimeSpan waktu))
                 {
-                    if (!TimeSpan.TryParseExact(waktuText, "hh\\:mm", null, out waktu))
-                    {
-                        MessageBox.Show("Format waktu salah. Gunakan HH:mm.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
+                    MessageBox.Show("Format waktu salah. Gunakan HH:mm.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
 
                 bool hasKodeGuru = ColumnExists("pelanggaran", "kode_guru");
@@ -566,21 +746,12 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     {
                         try
                         {
-                            // ambil old record
-                            string sel = "SELECT nis, id_jenis FROM dbo.pelanggaran WHERE id_pelanggaran=@id";
-                            string nisOld = null; int idJenisOld = 0;
+                            string nisOld = null;
+                            string sel = "SELECT nis FROM dbo.pelanggaran WHERE id_pelanggaran=@id";
                             using (SqlCommand c = new SqlCommand(sel, conn, tr))
                             {
                                 c.Parameters.AddWithValue("@id", selectedIdPelanggaran);
-                                using (var r = c.ExecuteReader())
-                                {
-                                    if (r.Read())
-                                    {
-                                        nisOld = r["nis"]?.ToString();
-                                        idJenisOld = r["id_jenis"] == DBNull.Value ? 0 : Convert.ToInt32(r["id_jenis"]);
-                                    }
-                                    else throw new Exception("Data pelanggaran tidak ditemukan.");
-                                }
+                                nisOld = (c.ExecuteScalar() as string)?.Trim();
                             }
 
                             string sqlUpdate = hasKodeGuru
@@ -604,15 +775,18 @@ namespace WinFormsApp_Pelanggaran_Siswa
                                 u.ExecuteNonQuery();
                             }
 
-                            // recalc for old and new NIS (if changed)
-                            if (!string.IsNullOrWhiteSpace(nisOld))
+                            if (!string.IsNullOrWhiteSpace(nisOld) && nisOld != nisNew)
+                            {
                                 RecalculateTotalPoint(conn, tr, nisOld);
-                            if (!string.IsNullOrWhiteSpace(nisNew) && nisNew != nisOld)
-                                RecalculateTotalPoint(conn, tr, nisNew);
+                            }
+                            RecalculateTotalPoint(conn, tr, nisNew);
+
+                            // ===== SYNC KE BACKUP TABLE =====
+                            SyncBackupTable(conn, tr, "pelanggaran", "id_pelanggaran", selectedIdPelanggaran, "UPDATE");
 
                             tr.Commit();
                         }
-                        catch
+                        catch (Exception)
                         {
                             tr.Rollback();
                             throw;
@@ -621,6 +795,11 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 }
 
                 MessageBox.Show("Pelanggaran & poin siswa berhasil diperbarui.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Notify data changed
+                DataChangedEventManager.Instance.NotifyPelanggaranDataChanged();
+                DataChangedEventManager.Instance.NotifySiswaDataChanged();
+
                 LoadGrid();
                 ClearForm();
             }
@@ -631,16 +810,15 @@ namespace WinFormsApp_Pelanggaran_Siswa
             finally
             {
                 isProcessing = false;
-                if (this.Controls.Find("btnUpdate", true).Length > 0) btnUpdate.Enabled = true;
+                btnUpdate.Enabled = true;
             }
         }
 
-        // DELETE (uses recalc)
         private void btnhapus_Click(object sender, EventArgs e)
         {
             if (isProcessing) return;
             isProcessing = true;
-            if (this.Controls.Find("btnhapus", true).Length > 0) btnhapus.Enabled = false;
+            btnhapus.Enabled = false;
 
             try
             {
@@ -654,21 +832,16 @@ namespace WinFormsApp_Pelanggaran_Siswa
                     {
                         try
                         {
-                            string sel = "SELECT nis, id_jenis FROM dbo.pelanggaran WHERE id_pelanggaran=@id";
-                            string nis = null; int idJenis = 0;
+                            string nis = null;
+                            string sel = "SELECT nis FROM dbo.pelanggaran WHERE id_pelanggaran=@id";
                             using (SqlCommand sc = new SqlCommand(sel, conn, tr))
                             {
                                 sc.Parameters.AddWithValue("@id", selectedIdPelanggaran);
-                                using (var r = sc.ExecuteReader())
-                                {
-                                    if (r.Read())
-                                    {
-                                        nis = r["nis"]?.ToString();
-                                        idJenis = r["id_jenis"] == DBNull.Value ? 0 : Convert.ToInt32(r["id_jenis"]);
-                                    }
-                                    else throw new Exception("Data tidak ditemukan.");
-                                }
+                                nis = (sc.ExecuteScalar() as string)?.Trim();
                             }
+
+                            // ===== HAPUS DARI BACKUP TABLE DULU =====
+                            SyncBackupTable(conn, tr, "pelanggaran", "id_pelanggaran", selectedIdPelanggaran, "DELETE");
 
                             using (SqlCommand del = new SqlCommand("DELETE FROM dbo.pelanggaran WHERE id_pelanggaran=@id", conn, tr))
                             {
@@ -681,7 +854,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
                             tr.Commit();
                         }
-                        catch
+                        catch (Exception)
                         {
                             tr.Rollback();
                             throw;
@@ -690,6 +863,11 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 }
 
                 MessageBox.Show("Pelanggaran dihapus dan poin siswa disesuaikan.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Notify data changed
+                DataChangedEventManager.Instance.NotifyPelanggaranDataChanged();
+                DataChangedEventManager.Instance.NotifySiswaDataChanged();
+
                 LoadGrid();
                 ClearForm();
             }
@@ -704,7 +882,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
             finally
             {
                 isProcessing = false;
-                if (this.Controls.Find("btnhapus", true).Length > 0) btnhapus.Enabled = true;
+                btnhapus.Enabled = true;
             }
         }
 
@@ -715,7 +893,11 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 if (e.RowIndex < 0) return;
                 var row = dataGridView1.Rows[e.RowIndex];
                 string idStr = (row.Cells["id_pelanggaran"].Value ?? "").ToString();
-                if (!int.TryParse(idStr, out int id)) { selectedIdPelanggaran = -1; return; }
+                if (!int.TryParse(idStr, out int id))
+                {
+                    selectedIdPelanggaran = -1;
+                    return;
+                }
 
                 selectedIdPelanggaran = id;
                 SetIfControlExists("txtid_pelanggaran", id.ToString());
@@ -729,7 +911,14 @@ namespace WinFormsApp_Pelanggaran_Siswa
 
                 if (row.Cells["tanggal"].Value != null && DateTime.TryParse(row.Cells["tanggal"].Value.ToString(), out DateTime t))
                     dateKejadian.Value = t;
-                if (row.Cells["waktu"].Value != null) SetIfControlExists("txtWaktuKejadian", row.Cells["waktu"].Value.ToString());
+                if (row.Cells["waktu"].Value != null)
+                {
+                    TimeSpan waktuSpan;
+                    if (TimeSpan.TryParse(row.Cells["waktu"].Value.ToString(), out waktuSpan))
+                    {
+                        SetIfControlExists("txtWaktuKejadian", waktuSpan.ToString(@"hh\:mm"));
+                    }
+                }
 
                 SetIfControlExists("txtTempatKejadian", row.Cells["tempat_kejadian"].Value?.ToString() ?? "");
                 SetIfControlExists("txtketeranganKejadian", row.Cells["keterangan"].Value?.ToString() ?? "");
@@ -739,24 +928,15 @@ namespace WinFormsApp_Pelanggaran_Siswa
                 else
                     SetIfControlExists("txtKodeGuru", "");
 
-                if (this.Controls.Find("btnEdit", true).Length > 0) btnEdit.Enabled = true;
-                if (this.Controls.Find("btnUpdate", true).Length > 0) btnUpdate.Enabled = true;
-                if (this.Controls.Find("btntambah", true).Length > 0) btntambah.Enabled = false;
-                if (this.Controls.Find("btnhapus", true).Length > 0) btnhapus.Enabled = true;
+                btntambah.Enabled = false;
+                btnEdit.Enabled = true;
+                btnUpdate.Enabled = true;
+                btnhapus.Enabled = true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Gagal pilih baris: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void Txtcari_TextChanged(object sender, EventArgs e)
-        {
-            if (txtcari.Text == placeholderCari) return;
-            string keyword = txtcari.Text.Trim().Replace("'", "''");
-
-            if (string.IsNullOrWhiteSpace(keyword)) bs.RemoveFilter();
-            else bs.Filter = $"nis LIKE '%{keyword}%' OR nama_siswa LIKE '%{keyword}%' OR nama_pelanggaran LIKE '%{keyword}%'";
         }
 
         private void btnbatal_Click(object sender, EventArgs e)
@@ -776,69 +956,35 @@ namespace WinFormsApp_Pelanggaran_Siswa
             SetIfControlExists("txtidjenispelanggaran", "");
             SetIfControlExists("txtNamaPelanggaran", "");
             SetIfControlExists("txtPoint", "0");
+
+            if (dateKejadian != null) dateKejadian.Value = DateTime.Today;
+
             SetIfControlExists("txtWaktuKejadian", DateTime.Now.ToString("HH:mm"));
             SetIfControlExists("txtTempatKejadian", "");
             SetIfControlExists("txtketeranganKejadian", "");
             SetIfControlExists("txtKodeGuru", "");
+
+            // ===== PENTING: RESET FILTER TXTCARI =====
+            if (txtcari != null)
+            {
+                // Unsubscribe dulu biar tidak trigger event
+                txtcari.TextChanged -= Txtcari_TextChanged;
+                txtcari.Text = placeholderCari;
+                txtcari.ForeColor = Color.Gray;
+                // Subscribe lagi
+                txtcari.TextChanged += Txtcari_TextChanged;
+            }
+
+            // ===== RESET BINDING SOURCE FILTER =====
+            if (bs != null)
+            {
+                bs.RemoveFilter();
+            }
         }
 
-        // designer mungkin menghasilkan overload; biarkan kosong
-        private void FormInputPelanggaran_Load_1(object sender, EventArgs e) { }
-
-        private void btnPengaturan_Click(object sender, EventArgs e)
+        private void groupBox4_Enter(object sender, EventArgs e)
         {
-            Pengaturan form = new Pengaturan();
-            form.Show();
-            this.Hide();
-        }
 
-        private void btnDataSiswa_Click(object sender, EventArgs e)
-        {
-            Formsiswa form = new Formsiswa();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btnDataGuru_Click(object sender, EventArgs e)
-        {
-            FormUserGuru form = new FormUserGuru();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btnJenisPelanggaran_Click(object sender, EventArgs e)
-        {
-            Formjenispelanggaran form = new Formjenispelanggaran();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btnPersiswa_Click(object sender, EventArgs e)
-        {
-            FormLaporanpersiswa form = new FormLaporanpersiswa();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btnPerkelas_Click(object sender, EventArgs e)
-        {
-            FormLaporanperkelas form = new FormLaporanperkelas();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btnSuratperingatan_Click(object sender, EventArgs e)
-        {
-            SuratPeringatan form = new SuratPeringatan();
-            form.Show();
-            this.Hide();
-        }
-
-        private void btndashboard_Click(object sender, EventArgs e)
-        {
-            FormPelanggara form = new FormPelanggara();
-            form.Show();
-            this.Hide();
         }
     }
 }

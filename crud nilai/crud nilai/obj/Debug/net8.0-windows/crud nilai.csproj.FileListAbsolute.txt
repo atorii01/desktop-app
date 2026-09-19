@@ -52,3 +52,4 @@ C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windo
 C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.pdb
 C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.genruntimeconfig.cache
 C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\ref\crud nilai.dll
+C:\Users\Peter\source\repos\lathian\crud nilai\crud nilai\obj\Debug\net8.0-windows\crud nilai.sourcelink.json

@@ -71,7 +71,6 @@ namespace CRUD_Ulangan
             }
         }
 
-
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(tbId.Text);
@@ -97,6 +96,7 @@ namespace CRUD_Ulangan
                         MessageBox.Show("Data berhasil disimpan!");
 
                         LoadData();
+                        ClearForm();
                     }
                 }
                 catch (Exception ex)
@@ -108,16 +108,16 @@ namespace CRUD_Ulangan
 
         private void btnPerbarui_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count == 0)
+            if (string.IsNullOrWhiteSpace(tbId.Text))
             {
-                MessageBox.Show("Pilih data terlebih dahulu!");
+                MessageBox.Show("Pilih data dari tabel terlebih dahulu!");
                 return;
             }
 
             int id = Convert.ToInt32(tbId.Text);
             string namaBaru = tbNama.Text;
             string departemenBaru = tbDepartemen.Text;
-            int hariBaru = Convert.ToInt32(tbHariBekerjaz.Text);
+            int hariBaru = Convert.ToInt32(tbHariBekerja.Text);
 
             using (NpgsqlConnection conn = new NpgsqlConnection(connectionString))
             {
@@ -137,6 +137,7 @@ namespace CRUD_Ulangan
                         MessageBox.Show("Data berhasil diubah!");
 
                         LoadData();
+                        ClearForm();
                     }
                 }
                 catch (Exception ex)
@@ -148,13 +149,15 @@ namespace CRUD_Ulangan
 
         private void btnHapus_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count == 0)
+            if (dataGridView1.SelectedRows.Count == 0 && string.IsNullOrWhiteSpace(tbId.Text))
             {
                 MessageBox.Show("Pilih data terlebih dahulu!");
                 return;
             }
 
-            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
+            int id = !string.IsNullOrWhiteSpace(tbId.Text)
+                ? Convert.ToInt32(tbId.Text)
+                : Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
 
             if (MessageBox.Show("Yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
@@ -173,6 +176,7 @@ namespace CRUD_Ulangan
                             MessageBox.Show("Data berhasil dihapus!");
 
                             LoadData();
+                            ClearForm();
                         }
                     }
                     catch (Exception ex)
@@ -188,22 +192,34 @@ namespace CRUD_Ulangan
             LoadData();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        // Event saat sel/baris pada DataGridView diklik
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Memastikan klik berada pada baris data yang valid (bukan header atau area kosong)
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
-                label1.Text = row.Cells["Id"].Value.ToString();
-                label3.Text = row.Cells["Nama"].Value.ToString();
-                label2.Text = row.Cells["Departemen"].Value.ToString();
-                label4.Text = row.Cells["Hari"].Value.ToString();
+                // Mengisi TextBox langsung dari kolom DataGridView
+                tbId.Text = row.Cells["Id"].Value?.ToString() ?? "";
+                tbNama.Text = row.Cells["Nama"].Value?.ToString() ?? "";
+                tbDepartemen.Text = row.Cells["Departemen"].Value?.ToString() ?? "";
+                tbHariBekerja.Text = row.Cells["Hari"].Value?.ToString() ?? "";
             }
         }
 
         private void tbCari_TextChanged(object sender, EventArgs e)
         {
             LoadData(tbCari.Text);
+        }
+
+        // Helper untuk membersihkan kolom input setelah transaksi
+        private void ClearForm()
+        {
+            tbId.Clear();
+            tbNama.Clear();
+            tbDepartemen.Clear();
+            tbHariBekerja.Clear();
         }
     }
 }

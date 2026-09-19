@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj": {}
+    "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj": {
+    "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj",
         "projectName": "WinFormsApp_Pelanggaran_Siswa",
-        "projectPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj",
+        "projectPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\obj\\",
+        "outputPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -58,6 +58,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [
@@ -71,6 +75,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -79,7 +101,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

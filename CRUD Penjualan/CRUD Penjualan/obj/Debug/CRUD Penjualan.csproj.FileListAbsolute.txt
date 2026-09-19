@@ -1,0 +1,9 @@
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\bin\Debug\CRUD Penjualan.exe.config
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\bin\Debug\CRUD Penjualan.exe
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\bin\Debug\CRUD Penjualan.pdb
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD Penjualan.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD_Penjualan.Properties.Resources.resources
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD Penjualan.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD Penjualan.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD Penjualan.exe
+C:\Users\Peter\source\repos\lathian\CRUD Penjualan\CRUD Penjualan\obj\Debug\CRUD Penjualan.pdb

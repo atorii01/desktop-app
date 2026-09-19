@@ -10,7 +10,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
 {
     public partial class FormTambahPelanggaran : Form
     {
-        private readonly Koneksi Konn = new Koneksi();
+        private readonly Koneksi Konn = Koneksi.Instance;
         private int selectedId = -1;
         private readonly string placeholderCari = "cari data";
         private BindingSource bs = new BindingSource();
@@ -41,7 +41,7 @@ namespace WinFormsApp_Pelanggaran_Siswa
             if (ControlExists("btnUpdate")) btnUpdate.Click += btnUpdate_Click;
             if (ControlExists("btnhapus")) btnhapus.Click += btnhapus_Click;
             if (ControlExists("btnbatal")) btnbatal.Click += btnbatal_Click;
-            if (ControlExists("btndashboard")) btndashboard.Click += btndashboard_Click;
+     //       if (ControlExists("btndashboard")) btndashboard.Click += btndashboard_Click;
         }
 
         #region Placeholder txtcari
@@ -467,6 +467,11 @@ namespace WinFormsApp_Pelanggaran_Siswa
             if (ControlExists("cbJenis")) cbJenis.SelectedIndex = -1;
             selectedId = -1;
             SetInitialButtonState();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

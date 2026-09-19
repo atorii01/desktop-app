@@ -1,66 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\",
+  "WorkspaceRootPath": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa - copy\\winformsapp_pelanggaran_siswa\\daftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\daftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa - copy\\winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\daftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\daftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\suratperingatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\suratperingatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa - copy\\winformsapp_pelanggaran_siswa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formtambahsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formtambahsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\forminputpelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\forminputpelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formtambahsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formtambahsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formtambahsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\pengaturan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\pengaturan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\pointsrecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\pointsrecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\forminputpelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\forminputpelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\forminputpelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\winformsapp_pelanggaran_siswa\\formjenispelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formjenispelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formsiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formjenispelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formjenispelanggaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formuserguru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanpersiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|c:\\users\\peter\\source\\repos\\lathian\\winformsapp_pelanggaran_siswa\\winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9046589-C450-4759-9098-3613545CC47F}|WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa.csproj|solutionrelative:winformsapp_pelanggaran_siswa\\formlaporanperkelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,180 +93,261 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 310,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 354,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:03:38.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Daftar.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Title": "FormMDI.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormMDI.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormMDI.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormMDI.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormMDI.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T15:36:01.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Program.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Program.cs",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T15:35:25.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Daftar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Daftar.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Daftar.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Daftar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T15:06:18.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Login.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Login.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T14:39:46.335Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T16:02:57.531Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Formsiswa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T02:03:17.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Formtambahsiswa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T23:21:40.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormUserGuru.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:36:03.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Formjenispelanggaran.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T15:42:54.929Z"
+              "WhenOpened": "2025-09-30T00:11:19.601Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FormInputPelanggaran.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs [Design]",
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T17:36:32.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormLaporanpersiswa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T17:57:50.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormLaporanperkelas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:25:22.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SuratPeringatan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\SuratPeringatan.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\SuratPeringatan.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\SuratPeringatan.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\SuratPeringatan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:47:07.942Z"
+              "WhenOpened": "2025-10-03T00:51:50.18Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Pengaturan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Pengaturan.cs",
-              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Pengaturan.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Pengaturan.cs [Design]",
-              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Pengaturan.cs [Design]",
+              "Title": "FormUserGuru.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:13:05.364Z"
+              "WhenOpened": "2025-10-10T01:15:02.845Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:02:57.531Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormSp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormSp.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormSp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:15:21.286Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Formtambahsiswa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:02:32.491Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Formtambahsiswa.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formtambahsiswa.cs",
+              "ViewState": "AgIAABkDAAAAAAAAAAAmwEUDAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T14:51:33.319Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormSp.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormSp.cs",
+              "ViewState": "AgIAALIDAAAAAAAAAAAgwN0DAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:44:19.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Form1.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwLUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T08:22:50.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PointsRecalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\PointsRecalculator.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\PointsRecalculator.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\PointsRecalculator.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\PointsRecalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T23:38:03.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormInputPelanggaran.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T00:40:53.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Formsiswa.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T15:17:04.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormInputPelanggaran.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormInputPelanggaran.cs",
+              "ViewState": "AgIAAKUDAAAAAAAAAAAUwN0DAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T00:40:55.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Formsiswa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\Formsiswa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T00:18:59.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormLogin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T06:39:05.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormUserGuru.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormUserGuru.cs",
+              "ViewState": "AgIAAE4DAAAAAAAAAAAAAGUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T08:16:53.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Formjenispelanggaran.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\Formjenispelanggaran.cs",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAAwJ8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T08:13:09.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormLaporanpersiswa.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAQwAkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T12:08:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormLaporanperkelas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:41:57.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormLaporanperkelas.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "RelativeToolTip": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanperkelas.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAwwGIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:32:19.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormLaporanpersiswa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\WinFormsApp_Pelanggaran_Siswa\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs",
+              "ToolTip": "C:\\Users\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HYPE AMD\\source\\repos\\WinFormsApp_Pelanggaran_Siswa - Copy\\WinFormsApp_Pelanggaran_Siswa\\FormLaporanpersiswa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T12:20:13.412Z"
             }
           ]
         }

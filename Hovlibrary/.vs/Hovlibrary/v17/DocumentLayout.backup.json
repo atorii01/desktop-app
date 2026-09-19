@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\masterbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|c:\\users\\peter\\source\\repos\\lathian\\hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA6AA0A8-C619-427D-9B31-A40AAFE9D52E}|Hovlibrary\\Hovlibrary.csproj|solutionrelative:hovlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,9 +38,9 @@
               "Title": "MasterBook.cs",
               "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
               "RelativeDocumentMoniker": "Hovlibrary\\MasterBook.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs*",
-              "RelativeToolTip": "Hovlibrary\\MasterBook.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBYAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
+              "RelativeToolTip": "Hovlibrary\\MasterBook.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAowIcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T02:57:26.39Z",
               "EditorCaption": ""
@@ -51,11 +51,10 @@
               "Title": "MasterBook.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs",
               "RelativeDocumentMoniker": "Hovlibrary\\MasterBook.cs",
-              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs [Design]*",
-              "RelativeToolTip": "Hovlibrary\\MasterBook.cs [Design]*",
+              "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\MasterBook.cs [Design]",
+              "RelativeToolTip": "Hovlibrary\\MasterBook.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T02:51:50.927Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-17T02:51:50.927Z"
             },
             {
               "$type": "Document",
@@ -65,10 +64,9 @@
               "RelativeDocumentMoniker": "Hovlibrary\\Form1.cs",
               "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\Form1.cs",
               "RelativeToolTip": "Hovlibrary\\Form1.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAADgv3MAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:53:34.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T01:53:34.601Z"
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\DataClasses1.dbml",
               "RelativeToolTip": "Hovlibrary\\DataClasses1.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
-              "WhenOpened": "2026-03-17T01:38:56.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T01:38:56.351Z"
             },
             {
               "$type": "Document",
@@ -91,8 +88,7 @@
               "ToolTip": "C:\\Users\\Peter\\source\\repos\\lathian\\Hovlibrary\\Hovlibrary\\Form1.cs [Design]",
               "RelativeToolTip": "Hovlibrary\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:38:39.491Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-17T01:38:39.491Z"
             }
           ]
         }

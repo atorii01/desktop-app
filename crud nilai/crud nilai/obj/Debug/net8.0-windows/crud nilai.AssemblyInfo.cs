@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crud nilai")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4948afc3689363670940bff69624db72126bab06")]
 [assembly: System.Reflection.AssemblyProductAttribute("crud nilai")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crud nilai")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
